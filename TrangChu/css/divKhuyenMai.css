@@ -1,0 +1,68 @@
+#divKhuyenMai{
+    float: left;
+    display: none;
+    margin-top: 40px;
+    margin-left: 140px;
+    width: 1200px;
+    height: 2050px;
+    border-radius: 15px;
+    font-family: 'Courier New', Courier, monospace; 
+}
+.divKhuyenMai_{
+    float: left;
+    width: 1200px;
+    margin-bottom: 30px;
+    height: 290px;
+    border-radius: 15px;
+    font-family: 'Courier New', Courier, monospace; 
+}
+.divKhuyenMai_1{
+    float: left;
+    width: 385px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    height: 290px;
+    border-radius: 15px;
+    border: 0.5px solid lightslategray;
+    font-family: 'Courier New', Courier, monospace; 
+}
+.divKhuyenMai_2{
+    float: left;
+    width: 385px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    height: 290px;
+    border-radius: 15px;
+    border: 0.5px solid lightslategray;
+    font-family: 'Courier New', Courier, monospace; 
+}
+.divKhuyenMai_3{
+    float: left;
+    width: 385px;
+    margin-bottom: 20px;
+    height: 290px;
+    border-radius: 15px;
+    border: 0.5px solid lightslategray;
+    font-family: 'Courier New', Courier, monospace; 
+}
+.divImg , .divImg img{
+    float: left;
+    width: 385px;
+    height: 205px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.divText{
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 374px;
+    height: 80px;
+}
+#km1:hover , #km2:hover , #km3:hover , #km4:hover , #km5:hover , #km6:hover 
+, #km7:hover , #km8:hover , #km9:hover , #km10:hover , #km11:hover , #km12:hover 
+, #km13:hover , #km14:hover , #km15:hover , #km16:hover , #km17:hover{
+    color: deeppink;
+}

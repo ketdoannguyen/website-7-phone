@@ -1,0 +1,3522 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/TrangChu.css">
+    <link rel="stylesheet" href="css/divTrangChu.css">
+    <link rel="stylesheet" href="css/divThuHoi.css">
+    <link rel="stylesheet" href="css/divKhuyenMai.css">
+    <link rel="stylesheet" href="css/divBaoHanh.css">
+    <link rel="stylesheet" href="css/divSuaChua.css">
+    <link rel="stylesheet" href="css/divLienHe.css">
+    <link rel="stylesheet" href="css/divDTDD.css">
+    <link rel="stylesheet" href="css/divPhuKien.css">
+    <link rel="stylesheet" href="css/textTrangChu.css">
+    <link rel="stylesheet" href="css/MuaSam.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/TrangChu.js"></script>
+    <script type="text/javascript" src="js/eventPhuKien.js"></script>
+    <script type="text/javascript" src="js/divPhuKien.js"></script>
+    <script type="text/javascript" src="js/eventAnhTua.js"></script>
+    <title>7-Phone</title>
+</head>
+
+<body>
+    <marquee id="marquee">
+        Chào mừng quý khách đến với cửa hàng điện thoại online 7-Phone
+    </marquee>
+    <div id="div_doc">
+        <img src="Img/thanhdoc.png" style="border-radius: 25px;">
+    </div>
+    <div id="mess">
+        <img src="Img/messenger.png" id="messenger">
+    </div>
+    <div class="lentop">
+        <div>
+            <img src='https://1.bp.blogspot.com/-k6sikOdzFXQ/VwqCKDosmEI/AAAAAAAAKxE/nLxLhkTIO6o3iE5ZWmtxo2bf4QHdzPQNQ/s1600/top.png'
+                alt="" />
+        </div>
+    </div>
+    <div id="div1">
+        <div class="div1_1" id="trangchu">
+            <img src="Img/7phone.png" alt="">
+        </div>
+        <div class="div1_2">
+            <a href="\DoAnCongNgheWeb\GioHang\gioHang.html">
+                <div class="div1_2_1"><img src="Img/cart.png" alt=""></div>
+                <div class="div1_2_2"><span class="textdiv1"> Giỏ hàng</span> </div>
+            </a>
+        </div>
+        <div class="div1_2">
+            <a href="\DoAnCongNgheWeb\TaiKhoan\taikhoan.html">
+                <div class="div1_2_1"><img src="Img/acc.png" alt=""></div>
+                <div class="div1_2_2"><span class="textdiv1"> Tài khoản</span> </div>
+            </a>
+        </div>
+        <div class="div1_3">
+            <div class="div1_3_1">
+                <input type="text" name="" id="tfdiv1_3_1" placeholder="Bạn cần tìm gì hôm nay ?">
+            </div>
+            <div class="div1_3_2">
+                <div id="search"> <img src="Img/search.png"> </div>
+            </div>
+        </div>
+    </div>
+    <div id="MuaSam">
+        <div class="MuaSam_" id="MuaSam1">Điện thoại di động</div>
+        <div class="MuaSam_" id="MuaSam2">Tai nghe</div>
+        <div class="MuaSam_" id="MuaSam3">Bộ sạc</div>
+        <div class="MuaSam_" id="MuaSam4">Loa</div>
+        <div class="MuaSam_" id="MuaSam5">Thẻ nhớ - USB</div>
+        <div class="MuaSam_" id="MuaSam6" style="border-bottom: 0px;">Thiết bị khác</div>
+    </div>
+    <div id="div2">
+        <div class="div2_" id="id_2_1">
+            <div class="div2_1"></div>
+            <div class="div2_2">Mua sắm </div>
+            <div class="div2_3" id="id_2_3_1">></div>
+        </div>
+        <div class="div2_" id="id_2_2">
+            <div class="div2_1"></div>
+            <div class="div2_2">Thu hồi</div>
+            <div class="div2_3" id="id_2_3_2">></div>
+        </div>
+        <div class="div2_" id="id_2_3">
+            <div class="div2_1"></div>
+            <div class="div2_2" style="margin-left: -10px;">Khuyến mãi</div>
+            <div class="div2_3" style="margin-left: 10px;" id="id_2_3_3">></div>
+        </div>
+        <div class="div2_" id="id_2_4">
+            <div class="div2_1"></div>
+            <div class="div2_2">Bảo hành</div>
+            <div class="div2_3" id="id_2_3_4">></div>
+        </div>
+        <div class="div2_" id="id_2_5">
+            <div class="div2_1"></div>
+            <div class="div2_2">Sửa chữa</div>
+            <div class="div2_3" id="id_2_3_5">></div>
+        </div>
+        <div class="div2_" id="id_2_6">
+            <div class="div2_1"></div>
+            <div class="div2_2">Liên hệ</div>
+            <div class="div2_3" id="id_2_3_6">></div>
+        </div>
+    </div>
+    <div id="divTrangChu">
+        <div id="div3">
+            <div id="click_3_1"></div>
+            <div id="click_3_2"></div>
+            <div id="click_3_3"></div>
+            <div id="click_3_4"></div>
+            <div id="click_3_5"></div>
+            <div id="click_3_6"></div>
+            <div id="img_3_1">
+                <img src="Img/Combo6Anh/Capture11.jpg" alt="" style="width: 1200px;height: 350px;border-radius: 25px;">
+            </div>
+            <div id="img_3_2">
+                <img src="Img/Combo6Anh/Capture22.jpg" alt="" style="width: 1200px;height: 350px;border-radius: 25px;">
+            </div>
+            <div id="img_3_3">
+                <img src="Img/Combo6Anh/Capture44.jpg" alt="" style="width: 1200px;height: 350px;border-radius: 25px;">
+            </div>
+            <div id="img_3_4">
+                <img src="Img/Combo6Anh/Capture55.jpg" alt="" style="width: 1200px;height: 350px;border-radius: 25px;">
+            </div>
+            <div id="img_3_5">
+                <img src="Img/Combo6Anh/Capture33.jpg" alt="" style="width: 1200px;height: 350px;border-radius: 25px;">
+            </div>
+            <div id="img_3_6">
+                <img src="Img/Combo6Anh/Capture77.jpg" alt="" style="width: 1200px;height: 350px;border-radius: 25px;">
+            </div>
+        </div>
+        <div id="div4">
+            <div class="div4_1">FLASH SALE ONLINE</div>
+            <div class="div4_2" id="gio1">0</div>
+            <div class="div4_2" id="gio2">2</div>
+            <div class="div4_3">:</div>
+            <div class="div4_2" id="phut1">4</div>
+            <div class="div4_2" id="phut2">4</div>
+            <div class="div4_3">:</div>
+            <div class="div4_2" id="giay1">5</div>
+            <div class="div4_2" id="giay2">9</div>
+        </div>
+        <div id="div5">
+            <div class="div5_1">
+                <img src="Img/left.png" alt="">
+            </div>
+            <div class="div5_2">
+                <div class="div5_2_1">
+                    <img src="Img/flash/flash1.png" style="margin-top: 10px;">
+                </div>
+                <div class="div5_2_2">LG Bluetooth Tone Free HBS-FN6 Chính hãng</div>
+                <div class="div5_2_3">
+                    <span class="textdiv5_1">1,450,000 <u>đ</u></span>
+                    <span class="textdiv5_2"> 3,490,000 <u>đ</u></span>
+                </div>
+            </div>
+            <div class="div5_2">
+                <div class="div5_2_1">
+                    <img src="Img/flash/flash2.png" style="margin-top: 10px;">
+                </div>
+                <div class="div5_2_2">Sony SRS-XB12 </br> Chính hãng</div>
+                <div class="div5_2_3">
+                    <span class="textdiv5_1">999,000 <u>đ</u></span>
+                    <span class="textdiv5_2"> 1,290,000 <u>đ</u></span>
+                </div>
+            </div>
+            <div class="div5_2">
+                <div class="div5_2_1">
+                    <img src="Img/flash/flash3.png" style="margin-top: 10px;">
+                </div>
+                <div class="div5_2_2">Sony WI-XB400 với EXTRA BASS Chính hãng</div>
+                <div class="div5_2_3">
+                    <span class="textdiv5_1">1,090,000 <u>đ</u></span>
+                    <span class="textdiv5_2"> 1,490,000 <u>đ</u></span>
+                </div>
+            </div>
+            <div class="div5_2">
+                <div class="div5_2_1">
+                    <img src="Img/flash/flash4.png" style="margin-top: 10px;">
+                </div>
+                <div class="div5_2_2">Samsung Galaxy S21 Plus 256GB 5G - Chính hãng</div>
+                <div class="div5_2_3">
+                    <span class="textdiv5_1">23,850,000<u>đ</u></span>
+                    <span class="textdiv5_2">24,450,000<u>đ</u></span>
+                </div>
+            </div>
+            <div class="div5_1">
+                <img src="Img/back.png" alt="">
+            </div>
+        </div>
+        <div id="div6">
+            <img src="Img/banner.gif" style="width:1200px;height: 150px;">
+        </div>
+        <div id="div7" class="test">CÓ THỂ BẠN SẼ THÍCH</div>
+        <div id="div8">
+            <div class="div8_">
+                <div class="div8_1">
+                    <img src="Img/CoTheBanSeThich/like1.png" style="margin-top: 5px;">
+                </div>
+                <div class="div8_2">Sony WH-1000XM4 - Chính hãng</div>
+                <div class="div8_3">
+                    <span class="textdiv8_1">3,850,000<u>đ</u></span>
+                    <span class="textdiv8_2">4,450,000<u>đ</u></span>
+                </div>
+            </div>
+            <div class="div8_">
+                <div class="div8_1">
+                    <img src="Img/CoTheBanSeThich/like2.png" style="margin-top: 5px;">
+                </div>
+                <div class="div8_2">Clock myAlo KS62W -<br> Chính hãng</div>
+                <div class="div8_3">
+                    <span class="textdiv8_1">3,850,000<u>đ</u></span>
+                    <span class="textdiv8_2">4,450,000<u>đ</u></span>
+                </div>
+            </div>
+            <div class="div8_">
+                <div class="div8_1">
+                    <img src="Img/CoTheBanSeThich/like3.png" style="margin-top: 5px;">
+                </div>
+                <div class="div8_2">Samsung Galaxy Tab A 10.1 (2019) T515N</div>
+                <div class="div8_3">
+                    <span class="textdiv8_1">5,790,000<u>đ</u></span>
+                    <span class="textdiv8_2">7,450,000<u>đ</u></span>
+                </div>
+            </div>
+            <div class="div8_">
+                <div class="div8_1">
+                    <img src="Img/CoTheBanSeThich/like4.png" style="margin-top: 5px;">
+                </div>
+                <div class="div8_2">Smartphone OPPO A15s Chính hãng</div>
+                <div class="div8_3">
+                    <span class="textdiv8_1">3,550,000<u>đ</u></span>
+                    <span class="textdiv8_2">3,990,000<u>đ</u></span>
+                </div>
+            </div>
+            <div class="div8_">
+                <div class="div8_1">
+                    <img src="Img/CoTheBanSeThich/like5.png" style="margin-top: 5px;">
+                </div>
+                <div class="div8_2">Smartphone Remo5 Chính hãng</div>
+                <div class="div8_3">
+                    <span class="textdiv8_1">8,290,000<u>đ</u></span>
+                    <span class="textdiv8_2">8,990,000<u>đ</u></span>
+                </div>
+            </div>
+        </div>
+        <div id="div9" class="test">ĐIỆN THOẠI NỔI BẬT</div>
+        <div id="div10">
+            <div class="div10_">
+                <div class="divdt_1">
+                    <img src="Img/DienThoai/dienthoai1.png">
+                </div>
+                <div class="divdt_2">
+                    <span class="textdivdt_1">Smartphone OPPO Reno5 - Chính hãng</span>
+                    <span class="textdivdt_2">8,290,000<u>đ</u></span>
+                    <span class="textdivdt_3">8,990,000<u>đ</u></span>
+                </div>
+                <div class="divdt_3">
+                    <div class="divdt_3_1">KM</div>
+                    <div class="divdt_3_2">Tặng loa Bluetool JBL Clip3</div>
+                </div>
+                <div class="divdt_tragop">Trả góp 0%</div>
+                <div class="divdt_new">Mới</div>
+            </div>
+            <div class="div10_">
+                <div class="divdt_1">
+                    <img src="Img/DienThoai/dienthoai2.png" style="width: 200px;height:185px;margin-top: 35px;">
+                </div>
+                <div class="divdt_2">
+                    <span class="textdivdt_1">Điện thoại Realme C15 Bạc Hải Âu</span>
+                    <span class="textdivdt_2">3,390,000<u>đ</u></span>
+                    <span class="textdivdt_3">3,990,000<u>đ</u></span>
+                </div>
+                <div class="divdt_3">
+                    <div class="divdt_3_1">KM</div>
+                    <div class="divdt_3_2">Ưu đãi mua thêm cổng chuyển HYPERDRIVE HDMI/VGA 4K 2 IN 1</div>
+                </div>
+                <div class="divdt_tragop">Trả góp 0%</div>
+                <div class="divdt_new">Mới</div>
+            </div>
+            <div class="div10_">
+                <div class="divdt_1">
+                    <img src="Img/DienThoai/dienthoai3.png">
+                </div>
+                <div class="divdt_2">
+                    <span class="textdivdt_1">Apple iPhone 12 Pro - 128GB - VN/A</span>
+                    <span class="textdivdt_2">26,290,000<u>đ</u></span>
+                    <span class="textdivdt_3" style="font-family: 'Times New Roman'">30,990,000<u>đ</u></span>
+                </div>
+                <div class="divdt_3">
+                    <div class="divdt_3_1">KM</div>
+                    <div class="divdt_3_2">Sạc nhanh Apple iPhone 20W Type-C</div>
+                </div>
+                <div class="divdt_tragop">Trả góp 0%</div>
+                <div class="divdt_new">Mới</div>
+            </div>
+            <div class="div10_">
+                <div class="divdt_1">
+                    <img src="Img/DienThoai/dienthoai4.png">
+                </div>
+                <div class="divdt_2">
+                    <span class="textdivdt_1">Điện thoại Samsung Galaxy A52 -</br> Chính hãng</span>
+                    <span class="textdivdt_2">8,390,000<u>đ</u></span>
+                    <span class="textdivdt_3">9,290,000<u>đ</u></span>
+                </div>
+                <div class="divdt_3">
+                    <div class="divdt_3_1">KM</div>
+                    <div class="divdt_3_2">Sạc nhanh Innostyle Minigo Pro III Dual PD/QC3.0 20W</div>
+                </div>
+                <div class="divdt_tragop">Trả góp 0%</div>
+                <div class="divdt_new">Mới</div>
+            </div>
+            <div class="div10_">
+                <div class="divdt_1">
+                    <img src="Img/DienThoai/dienthoai5.png">
+                </div>
+                <div class="divdt_2">
+                    <span class="textdivdt_1">Điện thoại Samsung Galaxy A72 -</br> Chính hãng</span>
+                    <span class="textdivdt_2">9,290,000<u>đ</u></span>
+                    <span class="textdivdt_3">9,990,000<u>đ</u></span>
+                </div>
+                <div class="divdt_3">
+                    <div class="divdt_3_1">KM</div>
+                    <div class="divdt_3_2">Sạc Anker 1 cổng, công suất 20W PowerPort III Nano</div>
+                </div>
+                <div class="divdt_tragop">Trả góp 0%</div>
+                <div class="divdt_new">Mới</div>
+            </div>
+        </div>
+        <div id="div11" class="nnnn">
+            <div class="div11_">
+                <div class="divdt_1">
+                    <img src="Img/DienThoai/dienthoai6.png">
+                </div>
+                <div class="divdt_2">
+                    <span class="textdivdt_1">Xiaomi Redmi Note 10 Pro 8GB/128GB -</br> Chính hãng</span>
+                    <span class="textdivdt_2">7,490,000<u>đ</u></span>
+                    <span class="textdivdt_3">8,990,000<u>đ</u></span>
+                </div>
+                <div class="divdt_3">
+                    <div class="divdt_3_1">KM</div>
+                    <div class="divdt_3_2">Sạc nhanh USB-C Power Delivery-A2633 chỉ với giá 320.000đ</div>
+                </div>
+                <div class="divdt_tragop">Trả góp 0%</div>
+                <div class="divdt_new">Mới</div>
+            </div>
+            <div class="div11_">
+                <div class="divdt_1">
+                    <img src="Img/DienThoai/dienthoai7.png">
+                </div>
+                <div class="divdt_2">
+                    <span class="textdivdt_1">Vsmart Live 4 - 6GB/64GB - Chính hãng</span>
+                    <span class="textdivdt_2">3,550,000<u>đ</u></span>
+                    <span class="textdivdt_3">4,990,000<u>đ</u></span>
+                </div>
+                <div class="divdt_3">
+                    <div class="divdt_3_1">KM</div>
+                    <div class="divdt_3_2">Tai nghe Apple AirPods 2 - Case sạc thường (MV7N2VN/A)</div>
+                </div>
+                <div class="divdt_tragop">Trả góp 0%</div>
+                <div class="divdt_new">Mới</div>
+            </div>
+            <div class="div11_">
+                <div class="divdt_1">
+                    <img src="Img/DienThoai/dienthoai8.png">
+                </div>
+                <div class="divdt_2">
+                    <span class="textdivdt_1">Vsmart Joy 4 - 3GB/64GB - Chính Hãng</span>
+                    <span class="textdivdt_2">2,890,000<u>đ</u></span>
+                    <span class="textdivdt_3">3,990,000<u>đ</u></span>
+                </div>
+                <div class="divdt_3">
+                    <div class="divdt_3_1">KM</div>
+                    <div class="divdt_3_2">Giảm 1.000.000đ khi thu cũ, đổi mới lên đời iPhone 12 Series</div>
+                </div>
+                <div class="divdt_tragop">Trả góp 0%</div>
+                <div class="divdt_new">Mới</div>
+            </div>
+            <div class="div11_">
+                <div class="divdt_1">
+                    <img src="Img/DienThoai/dienthoai9.png">
+                </div>
+                <div class="divdt_2">
+                    <span class="textdivdt_1">Điện thoại di động Nokia 2.4 -</br> Chính hãng</span>
+                    <span class="textdivdt_2">2,290,000<u>đ</u></span>
+                    <span class="textdivdt_3">2,990,000<u>đ</u></span>
+                </div>
+                <div class="divdt_3">
+                    <div class="divdt_3_1">KM</div>
+                    <div class="divdt_3_2">Tặng loa Bluetool JBL Clip3</div>
+                </div>
+                <div class="divdt_tragop">Trả góp 0%</div>
+                <div class="divdt_new">Mới</div>
+            </div>
+            <div class="div11_">
+                <div class="divdt_1">
+                    <img src="Img/DienThoai/dienthoai10.png">
+                </div>
+                <div class="divdt_2">
+                    <span class="textdivdt_1">Xiaomi Redmi Note 10 6GB/128GB -</br> Chính hãng</span>
+                    <span class="textdivdt_2">4,290,000<u>đ</u></span>
+                    <span class="textdivdt_3">5,690,000<u>đ</u></span>
+                </div>
+                <div class="divdt_3">
+                    <div class="divdt_3_1">KM</div>
+                    <div class="divdt_3_2">Giảm 1.000.000đ khi thu cũ, đổi mới lên đời iPhone 12 Series</div>
+                </div>
+                <div class="divdt_tragop">Trả góp 0%</div>
+                <div class="divdt_new">Mới</div>
+            </div>
+        </div>
+        <div id="div12" class="nnnnn">
+            <div class="div12_">
+                <div class="divdt_1">
+                    <img src="Img/DienThoai/dienthoai11.png">
+                </div>
+                <div class="divdt_2">
+                    <span class="textdivdt_1">Xiaomi Mi 10T Pro - 8GB/128GB - DGW</span>
+                    <span class="textdivdt_2">9,990,000<u>đ</u></span>
+                    <span class="textdivdt_3">10,990,000<u>đ</u></span>
+                </div>
+                <div class="divdt_3">
+                    <div class="divdt_3_1">KM</div>
+                    <div class="divdt_3_2">Sạc nhanh Innostyle Minigo Pro III Dual PD/QC3.0 20W</div>
+                </div>
+                <div class="divdt_tragop">Trả góp 0%</div>
+                <div class="divdt_new">Mới</div>
+            </div>
+            <div class="div12_">
+                <div class="divdt_1">
+                    <img src="Img/DienThoai/dienthoai12.png">
+                </div>
+                <div class="divdt_2">
+                    <span class="textdivdt_1">iPhone XR - 64GB - Chính hãng VN/A</span>
+                    <span class="textdivdt_2">9,290,000<u>đ</u></span>
+                    <span class="textdivdt_3">10,490,000<u>đ</u></span>
+                </div>
+                <div class="divdt_3">
+                    <div class="divdt_3_1">KM</div>
+                    <div class="divdt_3_2">Giảm 1.000.000đ khi thu cũ, đổi mới lên đời iPhone 12 Series</div>
+                </div>
+                <div class="divdt_tragop">Trả góp 0%</div>
+                <div class="divdt_new">Mới</div>
+            </div>
+            <div class="div12_">
+                <div class="divdt_1">
+                    <img src="Img/DienThoai/dienthoai13.png">
+                </div>
+                <div class="divdt_2">
+                    <span class="textdivdt_1">Vivo Y72 5G -</br> Chính hãng</span>
+                    <span class="textdivdt_2">7,290,000<u>đ</u></span>
+                    <span class="textdivdt_3">7,990,000<u>đ</u></span>
+                </div>
+                <div class="divdt_3">
+                    <div class="divdt_3_1">KM</div>
+                    <div class="divdt_3_2">Sạc nhanh Innostyle Minigo Pro III Dual PD/QC3.0 20W</div>
+                </div>
+                <div class="divdt_tragop">Trả góp 0%</div>
+                <div class="divdt_new">Mới</div>
+            </div>
+            <div class="div12_">
+                <div class="divdt_1">
+                    <img src="Img/DienThoai/dienthoai14.png">
+                </div>
+                <div class="divdt_2">
+                    <span class="textdivdt_1">Samsung Galaxy A12 - Chính hãng</span>
+                    <span class="textdivdt_2">3,590,000<u>đ</u></span>
+                    <span class="textdivdt_3">4,990,000<u>đ</u></span>
+                </div>
+                <div class="divdt_3">
+                    <div class="divdt_3_1">KM</div>
+                    <div class="divdt_3_2">Tặng loa Bluetool JBL Clip3</div>
+                </div>
+                <div class="divdt_tragop">Trả góp 0%</div>
+                <div class="divdt_new">Mới</div>
+            </div>
+            <div class="div12_">
+                <div class="divdt_1">
+                    <img src="Img/DienThoai/dienthoai15.png">
+                </div>
+                <div class="divdt_2">
+                    <span class="textdivdt_1">Xiaomi Redmi Note 9S - 4GB/64GB - DGW</span>
+                    <span class="textdivdt_2">4,790,000<u>đ</u></span>
+                    <span class="textdivdt_3">4,990,000<u>đ</u></span>
+                </div>
+                <div class="divdt_3">
+                    <div class="divdt_3_1">KM</div>
+                    <div class="divdt_3_2">Ưu đãi mua thêm cổng chuyển HYPERDRIVE HDMI/VGA 4K 2 IN 1</div>
+                </div>
+                <div class="divdt_tragop">Trả góp 0%</div>
+                <div class="divdt_new">Mới</div>
+            </div>
+        </div>
+        <div>
+            <input id="click"type="button" value="Click" style="position: relative;float:left;width: 50px;height: 50px;">
+        </div>
+        <div id="div13">
+            <img src="Img/QuangCao/quangcao0.png" style="width:1200px;height: 90px;">
+        </div>
+        <div id="div14" class="test">PHỤ KIỆN</div>
+        <div id="div15">
+            <div class="div15_a">
+                <div class="div15_" id="phukien1">
+                    <div class="div15_1" id="phukien1_1">
+                        <img src="Img/PhuKien/phukien1.png" style="margin-top: 30px;">
+                    </div>
+                    <div class="div15_2" id="phukien1_2">Thẻ nhớ - USB</div>
+                </div>
+                <div class="div15_" id="phukien2">
+                    <div class="div15_1" id="phukien2_1">
+                        <img src="Img/PhuKien/phukien2.png" style="margin-top: 30px;">
+                    </div>
+                    <div class="div15_2" id="phukien2_2">Tai nghe</div>
+                </div>
+                <div class="div15_" id="phukien3">
+                    <div class="div15_1" id="phukien3_1">
+                        <img src="Img/PhuKien/phukien3.png" style="margin-top: 30px;">
+                    </div>
+                    <div class="div15_2" id="phukien3_2">Sạc dự phòng</div>
+                </div>
+                <div class="div15_" id="phukien4">
+                    <div class="div15_1" id="phukien4_1">
+                        <img src="Img/PhuKien/phukien4.png" style="margin-top: 30px;">
+                    </div>
+                    <div class="div15_2" id="phukien4_2">Quạt để bàn</div>
+                </div>
+                <div class="div15_" id="phukien5">
+                    <div class="div15_1" id="phukien5_1">
+                        <img src="Img/PhuKien/phukien5.png" style="margin-top: 30px;">
+                    </div>
+                    <div class="div15_2" id="phukien5_2">Loa</div>
+                </div>
+                <div class="div15_" style="margin-right: 0px;" id="phukien6">
+                    <div class="div15_1" id="phukien6_1">
+                        <img src="Img/PhuKien/phukien6.png" style="margin-top: 30px;">
+                    </div>
+                    <div class="div15_2" id="phukien6_2">Củ sạc-Dây cáp</div>
+                </div>
+            </div>
+            <div class="div15_b">
+                <div class="div15_" id="phukien7">
+                    <div class="div15_1" id="phukien7_1">
+                        <img src="Img/PhuKien/phukien7.png" style="margin-top: 30px;">
+                    </div>
+                    <div class="div15_2" id="phukien7_2">Camera an ninh</div>
+                </div>
+                <div class="div15_" id="phukien8">
+                    <div class="div15_1" id="phukien8_1">
+                        <img src="Img/PhuKien/phukien8.png" style="margin-top: 30px;">
+                    </div>
+                    <div class="div15_2" id="phukien8_2">Bộ phát wifi</div>
+                </div>
+                <div class="div15_" id="phukien9">
+                    <div class="div15_1" id="phukien9_1">
+                        <img src="Img/PhuKien/phukien9.png" style="margin-top: 30px;">
+                    </div>
+                    <div class="div15_2" id="phukien9_2">Apple</div>
+                </div>
+                <div class="div15_" id="phukien10">
+                    <div class="div15_1" id="phukien10_1">
+                        <img src="Img/PhuKien/phukien10.png" style="margin-top: 30px;">
+                    </div>
+                    <div class="div15_2" id="phukien10_2">Bao da-ốp lưng</div>
+                </div>
+                <div class="div15_" id="phukien11">
+                    <div class="div15_1" id="phukien11_1">
+                        <img src="Img/PhuKien/phukien11.png" style="margin-top: 30px;">
+                    </div>
+                    <div class="div15_2" id="phukien11_2">Lọc không khí</div>
+                </div>
+                <div class="div15_" style="margin-right: 0px;" id="phukien12">
+                    <div class="div15_1" id="phukien12_1">
+                        <img src="Img/PhuKien/phukien12.png" style="margin-top: 30px;">
+                    </div>
+                    <div class="div15_2" id="phukien12_2">Robot hút bụi</div>
+                </div>
+            </div>
+        </div>
+        <div id="div16" class="test">TIN CÔNG NGHỆ</div>
+        <div id="div17">
+            <div class="div17_">
+                <div class="div17_1">
+                    <img src="Img/TinCongNghe/tincongnghe1.png" style="width:100px;height:66px;">
+                </div>
+                <div class="div17_2">Mi Mix Fold xuất sắc vượt qua thử nghiệm
+                    89 giờ với hơn 200.00 gập mở
+                </div>
+            </div>
+            <div class="div17_">
+                <div class="div17_1">
+                    <img src="Img/TinCongNghe/tincongnghe2.png" style="width:100px;height:66px;">
+                </div>
+                <div class="div17_2">Xiaomi được cấp bằng sáng chế smartphone
+                    với camera hình tia sét "cực dị"
+                </div>
+            </div>
+            <div class="div17_">
+                <div class="div17_1">
+                    <img src="Img/TinCongNghe/tincongnghe3.png" style="width:100px;height:66px;">
+                </div>
+                <div class="div17_2">Không chỉ iPhone, AirTags có thể
+                    hoạt động với cả smartphone Android</div>
+            </div>
+        </div>
+    </div>
+    <div id="divThuHoi">
+        <div id="divThuHoi0">
+            <span>THU CŨ ĐỔI MỚI VỚI 7-PHONE</span>
+        </div>
+        <div id="divThuHoi1">
+            <img src="Img/ThuHoi/banner-product.png" alt="" id="img1_1">
+            <img src="Img/ThuHoi/banner-promo.png" alt="" id="img1_2">
+            <img src="Img/ThuHoi/banner-sale.png" alt="" id="img1_3">
+        </div>
+        <div id="divThuHoi2">
+            <img src="Img/ThuHoi/img.png">
+        </div>
+        <div id="divThuHoi3">
+            <div id="divThuHoi3_1">
+                <span>Điền thông tin máy cũ cần định giá</span>
+            </div>
+            <div id="divThuHoi3_2">
+                <div class="divThuHoi3_2_">
+                    <div class="divThuHoi3_2_1">
+                        <span>Họ và tên<span style="color: red;">*</span></span>
+                    </div>
+                    <div class="divThuHoi3_2_2">
+                        <input type="text" name="" id="">
+                    </div>
+                </div>
+                <div class="divThuHoi3_2_">
+                    <div class="divThuHoi3_2_1">
+                        <span>CMND<span style="color: red;">*</span></span>
+                    </div>
+                    <div class="divThuHoi3_2_2">
+                        <input type="text" name="" id="">
+                    </div>
+                </div>
+                <div class="divThuHoi3_2_">
+                    <div class="divThuHoi3_2_1">
+                        <span>Số điện thoại<span style="color: red;">*</span></span>
+                    </div>
+                    <div class="divThuHoi3_2_2">
+                        <input type="text" name="" id="">
+                    </div>
+                </div>
+                <div class="divThuHoi3_2_">
+                    <div class="divThuHoi3_2_1" style="margin-top: -10px;">
+                        <span>Loại điện thoại cần định giá<span style="color: red;">*</span></span>
+                    </div>
+                    <div class="divThuHoi3_2_2">
+                        <select name="" id="">
+                            <option value="iPhone">iPhone</option>
+                            <option value="iPhone">Xiaomi</option>
+                            <option value="iPhone">OPPO</option>
+                            <option value="iPhone">Masstel</option>
+                            <option value="iPhone">SamSung</option>
+                            <option value="iPhone">Realme</option>
+                            <option value="iPhone">Huawei</option>
+                            <option value="iPhone">BPhone</option>
+                            <option value="iPhone">Vsmart</option>
+                            <option value="iPhone">Khác</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="divThuHoi3_2_">
+                    <div class="divThuHoi3_2_1">
+                        <span>Chi tiết<span style="color: red;">*</span></span>
+                    </div>
+                    <div class="divThuHoi3_2_2">
+                        <input type="text" name="" id="">
+                    </div>
+                </div>
+                <div class="divThuHoi3_2_">
+                    <div class="divThuHoi3_2_1">
+                        <span>Định giá</span>
+                    </div>
+                    <div class="divThuHoi3_2_2" style="width: 195px;">
+                        <input type="text" name="" id="" style="width: 195px;">
+                    </div>
+                    <div class="divThuHoi3_2_1" style="margin-left: 20px;">
+                        <span>VNĐ</span>
+                    </div>
+                </div>
+                <div class="divThuHoi3_2_">
+                    <div class="divThuHoi3_2_1">
+                        <span>Ảnh sản phẩm<span style="color: red;">*</span></span>
+                    </div>
+                    <div class="divThuHoi3_2_2" id="fileImg">
+                        <img src="Img/ThuHoi/fileImg1.png" alt="" style="height: 40px;width: 40px;">
+                    </div>
+                </div>
+                <div class="divThuHoi3_2_">
+                    <div class="divThuHoi3_2_1">
+                        <span>Ghi chú<span style="color: red;">*</span></span>
+                    </div>
+                    <div class="divThuHoi3_2_2" id="fileImg">
+                        <textarea name="" id="" cols="52" rows="6" required></textarea>
+                    </div>
+                </div>
+                <div id="submit"><span>Submit</span></div>
+            </div>
+        </div>
+        <div id="divThuHoi4">
+            <pre>                                       <span style="font-size: 36px;">Thể lệ chương trình</span> 
+
+    Sản phẩm áp dụng thu cũ: Điện thoại iPhone, Samsung, Oppo, Huawei, Máy tính bảng Samsung và iPad.
+                
+    Sản phẩm áp dụng lên đời: Tất cả các sản phẩm Điện thoại di động, Máy tính bảng, Máy tính xách tay.  
+
+    Thời gian áp dụng: 15/05/2021.
+                
+    Đối tượng tham gia: Khách hàng hiện là chủ sở hữu điện thoại và máy tính bảng cũ nằm trong danh sách thu 
+    mua thoả mãn các yêu cầu về tình trạng điện thoại như bên dưới:
+
+        - Máy có thể mở, tắt nguồn, không lỗi khởi động.      
+
+        - Máy đã được tắt/ngắt hoạt động và đăng xuất khỏi tất cả các tính năng bảo mật máy và khoá máy từ xa 
+          như: Khoá màn hình, tài khoản iCloud, Samsung, Google…    
+
+        - Không thu mua điện thoại, máy tính bảng bị hư hỏng màn hình đến mức không kiểm tra được các tính năng.
+                
+        - Các dòng máy xách tay: Phải hiển thị đúng thông tin máy, "Không sử dụng các phần mềm thứ 3 làm thay 
+          đổi thông tin máy", hiển thị được IMEI sau khi bấm lệnh *#06#, phải kích hoạt được thiết bị, sử dụng 
+          được sim của nhà mạng Việt Nam (không sử dụng sim ghép).
+                
+    GIÁ THU MUA VÀ TRỢ GIÁ TỪ 7-Phone SHOP: Giá thu mua máy cũ căn cứ vào tình trạng máy theo loại thẩm định cộng 
+    với mức trợ giá từ 7-Phone Shop chi tiết như sau:
+
+        Loại 1: Máy đầy đủ chức năng, không cấn móp trầy xước.
+                
+        Loại 2: Máy đầy đủ chức năng, cấn móp trầy xước nhẹ.
+                
+        Loại 3: Máy đầy đủ chức năng, cấn móp trầy xước nhiều.
+                
+    ĐẶC BIỆT: 7-Phone Shop trợ giá thêm 15% giá trị máy thu mua tương ứng mỗi loại.</pre>
+        </div>
+    </div>
+    <div id="divKhuyenMai">
+        <div id="divThuHoi0">
+            <span>KHUYẾN MÃI & ƯU ĐÃI ĐẶC BIỆT</span>
+        </div>
+        <div class="divKhuyenMai_">
+            <div class="divKhuyenMai_1" id="km1">
+                <div class="divImg">
+                    <img src="Img/KhuyenMai/khuyenmai1.png" alt="">
+                </div>
+                <div class="divText">
+                    <span>[CTKM] Loa và tai nghe tháng 04 Giảm đến 6.5 Triệu</span>
+                </div>
+            </div>
+            <div class="divKhuyenMai_2" id="km2">
+                <div class="divImg">
+                    <img src="Img/KhuyenMai/km2.png" alt="">
+                </div>
+                <div class="divText">
+                    <span>[ĐẶC BIỆT] 100 SUẤT ĐẦU TIÊN PIN DỰ PHÒNG GENSHAI 350k</span>
+                </div>
+            </div>
+            <div class="divKhuyenMai_3" id="km3">
+                <div class="divImg">
+                    <img src="Img/KhuyenMai/km3.png" alt="">
+                </div>
+                <div class="divText">
+                    <span>Phụ Kiện iPhone 12 Giá Tốt Nhất</span>
+                </div>
+            </div>
+        </div>
+        <div class="divKhuyenMai_">
+            <div class="divKhuyenMai_1" id="km4">
+                <div class="divImg">
+                    <img src="Img/KhuyenMai/km4.png" alt="">
+                </div>
+                <div class="divText">
+                    <span>[CTKM] Thanh toán VNPAY giảm đến 200.000đ - Cơ hội Trúng Nhà Trúng Xe</span>
+                </div>
+            </div>
+            <div class="divKhuyenMai_2" id="km5">
+                <div class="divImg">
+                    <img src="Img/KhuyenMai/km5.png" alt="">
+                </div>
+                <div class="divText">
+                    <span>Tặng 3 Tháng 4G Viettel KHÔNG GIỚI HẠN Khi Mua Nokia 215 4G, 6300 4G, 8000 4G</span>
+                </div>
+            </div>
+            <div class="divKhuyenMai_3" id="km6">
+                <div class="divImg">
+                    <img src="Img/KhuyenMai/km6.png" alt="">
+                </div>
+                <div class="divText">
+                    <span>Mua sắm online – Giảm Lên Đến 120.000đ</span>
+                </div>
+            </div>
+        </div>
+        <div class="divKhuyenMai_">
+            <div class="divKhuyenMai_1" id="km7">
+                <div class="divImg">
+                    <img src="Img/KhuyenMai/km7.png" alt="">
+                </div>
+                <div class="divText">
+                    <span>Mua Trả Góp Online 0% Lãi Suất Qua Thẻ Tín Dụng Với ALEPAY</span>
+                </div>
+            </div>
+            <div class="divKhuyenMai_2" id="km8">
+                <div class="divImg">
+                    <img src="Img/KhuyenMai/km8.png" alt="">
+                </div>
+                <div class="divText">
+                    <span>LINH HOẠT KHOẢN TRẢ GÓP BẰNG THẺ TÍN DỤNG VỚI ALEPAY</span>
+                </div>
+            </div>
+            <div class="divKhuyenMai_3" id="km9">
+                <div class="divImg">
+                    <img src="Img/KhuyenMai/km9.png" alt="">
+                </div>
+                <div class="divText">
+                    <span>THANH TOÁN TRẢ GÓP - MUA SẮM ONLINE QUA VÍ MOMO</span>
+                </div>
+            </div>
+        </div>
+        <div class="divKhuyenMai_">
+            <div class="divKhuyenMai_1" id="km10">
+                <div class="divImg">
+                    <img src="Img/KhuyenMai/km10.png" alt="">
+                </div>
+                <div class="divText">
+                    <span>Mua Sắm Online dễ dàng với ZaloPay</span>
+                </div>
+            </div>
+            <div class="divKhuyenMai_2" id="km11">
+                <div class="divImg">
+                    <img src="Img/KhuyenMai/km11.png" alt="">
+                </div>
+                <div class="divText">
+                    <span>TRẢ GÓP ONLINE QUA WOWMELO</span>
+                </div>
+            </div>
+            <div class="divKhuyenMai_3" id="km12">
+                <div class="divImg">
+                    <img src="Img/KhuyenMai/km12.png" alt="">
+                </div>
+                <div class="divText">
+                    <span>MUA HÀNG THANH TOÁN ONLINE VỚI THẺ TÍN DỤNG, THẺ ATM QUA ALEPAY</span>
+                </div>
+            </div>
+        </div>
+        <div class="divKhuyenMai_">
+            <div class="divKhuyenMai_1" id="km13">
+                <div class="divImg">
+                    <img src="Img/KhuyenMai/km13.png" alt="">
+                </div>
+                <div class="divText">
+                    <span>Đặt trước Samsung Galaxy S mới 2021 | Nhận quà đến 8,5 Triệu</span>
+                </div>
+            </div>
+            <div class="divKhuyenMai_2" id="km14">
+                <div class="divImg">
+                    <img src="Img/KhuyenMai/km14.png" alt="">
+                </div>
+                <div class="divText">
+                    <span>Đặt trước OPPO Reno5 | Nhận ngay quà khủng</span>
+                </div>
+            </div>
+            <div class="divKhuyenMai_3" id="km15">
+                <div class="divImg">
+                    <img src="Img/KhuyenMai/km15.png" alt="">
+                </div>
+                <div class="divText">
+                    <span>Đặt trước Galaxy Z Fold2 5G | Limited Collection Spring 2021</span>
+                </div>
+            </div>
+        </div>
+        <div class="divKhuyenMai_">
+            <div class="divKhuyenMai_1" id="km16">
+                <div class="divImg">
+                    <img src="Img/KhuyenMai/km16.png" alt="">
+                </div>
+                <div class="divText">
+                    <span>Đặt trước AirPods Max VN/A</span>
+                </div>
+            </div>
+            <div class="divKhuyenMai_2" id="km17">
+                <div class="divImg">
+                    <img src="Img/KhuyenMai/km17.png" alt="">
+                </div>
+                <div class="divText">
+                    <span>Đặt trước iPhone 12 Series - Ưu đãi khủng</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="divBaoHanh">
+        <div id="divThuHoi0">
+            <span>BẢO HÀNH ĐIỆN THOẠI 7-PHONE</span>
+        </div>
+        <div id="bh1">
+            <img src="Img/BaoHanh/baohanh1.png">
+        </div>
+        <div id="bh2">
+            <img src="Img/BaoHanh/baohanh.gif">
+        </div>
+        <div id="bh3">
+            <div id="bh3_">
+                <div class="bh3_1">Điện thoại di động</div>
+                <div class="bh3_2">
+                    <span style="font-size: 18px;">Thời hạn bảo hành</span><br>
+                    <span id="so">12</span>
+                    <span style="font-size: 14px;">tháng</span>
+                </div>
+                <div class="bh3_3">
+                    <span style="font-size: 20px;">Loại dịch vụ bảo hành</span><br>
+                    <span style="font-size: 14px;font-family: 'Courier New', Courier, monospace;">Sửa chữa tại trung tâm
+                        <br>bảo hành 7-Phone</span>
+                </div>
+                <div class="bh3_4">
+                    <span style="font-size: 20px;">Phạm vi bảo hành</span><br>
+                    <span style="font-size: 14px;font-family: 'Courier New', Courier, monospace;">Tất cả các DTDD phân
+                        phối bởi 7-Phone + Linh kiện</span>
+                </div>
+            </div>
+            <div id="bh3_">
+                <div class="bh3_1">Phụ kiện di động</div>
+                <div class="bh3_2">
+                    <span style="font-size: 18px;">Thời hạn bảo hành</span><br>
+                    <span id="so">6</span>
+                    <span style="font-size: 14px;">tháng</span>
+                </div>
+                <div class="bh3_3">
+                    <span style="font-size: 20px;">Loại dịch vụ bảo hành</span><br>
+                    <span style="font-size: 14px;font-family: 'Courier New', Courier, monospace;">Sửa chữa tại trung tâm
+                        <br>bảo hành 7-Phone</span>
+                </div>
+                <div class="bh3_4">
+                    <span style="font-size: 20px;">Phạm vi bảo hành</span><br>
+                    <span style="font-size: 14px;font-family: 'Courier New', Courier, monospace;">Bộ sạc, S Pen, Tai
+                        nghe đi kèm hộp</span>
+                </div>
+            </div>
+            <div id="bh3_">
+                <div class="bh3_1">Pin sạc dự phòng</div>
+                <div class="bh3_2">
+                    <span style="font-size: 18px;">Thời hạn bảo hành</span><br>
+                    <span id="so">8</span>
+                    <span style="font-size: 14px;">tháng</span>
+                </div>
+                <div class="bh3_3">
+                    <span style="font-size: 20px;">Loại dịch vụ bảo hành</span><br>
+                    <span style="font-size: 14px;font-family: 'Courier New', Courier, monospace;">Sửa chữa tại trung tâm
+                        <br>bảo hành 7-Phone</span>
+                </div>
+                <div class="bh3_4">
+                    <span style="font-size: 20px;">Phạm vi bảo hành</span><br>
+                    <span style="font-size: 14px;font-family: 'Courier New', Courier, monospace;">Tất cả các loại Pin
+                        sạc dự phòng cung cấp bởi 7-Phone</span>
+                </div>
+            </div>
+            <div id="bh3_" style="margin-right: 0;">
+                <div class="bh3_1">Loa & Tai nghe</div>
+                <div class="bh3_2">
+                    <span style="font-size: 18px;">Thời hạn bảo hành</span><br>
+                    <span id="so">6</span>
+                    <span style="font-size: 14px;">tháng</span>
+                </div>
+                <div class="bh3_3">
+                    <span style="font-size: 20px;">Loại dịch vụ bảo hành</span><br>
+                    <span style="font-size: 14px;font-family: 'Courier New', Courier, monospace;">Sửa chữa tại trung tâm
+                        <br>bảo hành 7-Phone</span>
+                </div>
+                <div class="bh3_4">
+                    <span style="font-size: 20px;">Phạm vi bảo hành</span><br>
+                    <span style="font-size: 14px;font-family: 'Courier New', Courier, monospace;">Tất cả các loại loa và
+                        tai nghe 7-Phone</span>
+                </div>
+            </div>
+        </div>
+        <div id="bh4">
+            <div id="bh4_i4">
+                <div class="bh4_i4_2">
+                    <div class="bh4_i4_2_1">
+                        <span>Loại sản phẩm<span style="color: red;">*</span></span>
+                    </div>
+                    <div class="bh4_i4_2_2">
+                        <select name="" id="">
+                            <option value="iPhone">Điện thoại</option>
+                            <option value="iPhone">Tai nghe</option>
+                            <option value="iPhone">Loa</option>
+                            <option value="iPhone">Bộ sạc</option>
+                            <option value="iPhone">Khác</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="bh4_i4_2">
+                    <div class="bh4_i4_2_1">
+                        <span>ID sản phẩm<span style="color: red;">*</span></span>
+                    </div>
+                    <div class="bh4_i4_2_2">
+                        <input type="text">
+                    </div>
+                </div>
+                <div id="bh4_i4_3">
+                    <span>Thông tin</span>
+                </div>
+            </div>
+        </div>
+        <div id="bh5">
+            <textarea name="" id="" cols="30" rows="10" readonly>
+                                         A. PHẠM VI BẢO HÀNH
+I.Thời hạn bảo hành sản phẩm
+   Tất cả sản phẩm mang nhãn hiệu Samsung được sản xuất và phân phối chính thức tại thị trường Việt Nam hoặc các
+sản phẩm bảo hành toàn cầu sẽ được bảo hành theo quy định sau:
+
+    1. Thời hạn bảo hành được xác nhận dựa vào thông tin bảo hành điện tử thông qua ứng dụng CS One tải từ CH
+    Play hoặc App Store; hoặc dựa vào các công cụ kiểm tra thời hạn bảo hành của Samsung; hoặc theo chứng từ mua
+    hàng đối với các sản phẩm bảo hành toàn cầu.
+
+    2. Trong trường hợp sản phẩm không sử dụng bảo hành điện tử hoặc sản phẩm chưa kích hoạt ngày mua đến tổng
+    đài thì dựa vào bảng 1 bên dưới để xác nhận thời hạn bảo hành cho sản phẩm đó, với điều kiện như sau:
+    ~ Thời hạn bảo hành được tính kể từ ngày mua của khách hàng sử dụng (như cột A) nhưng không được vượt quá 
+    thời hạn của ngày sản xuất (như Cột B).(*)  Với điều kiện thời gian sử dụng không vượt quá 600 giờ
+
+    3. Riêng đối với các sản phẩm đã bán cho người tiêu dùng nhưng chưa được kích hoạt bảo hành, Trung tâm Bảo 
+    hành ủy quyền (TTBHUQ) khi nhận máy, gửi các thông tin về khách hàng kèm bản sao chép hóa đơn hợp lệ ,
+    hoặc Biên bản khách hàng xác nhận ngày mua đến Bộ phận Bảo hành và Chăm sóc khách hàng Samsung để xem xét
+    kích hoạt bảo hành.
+ 
+II.Thời hạn bảo hành đối với linh kiện thay thế ngoài bảo hành
+    Thời hạn bảo hành đối với linh kiện thay thế ngoài bảo hành được áp dụng như sau:
+
+    1. Trường hợp tại thời điểm sửa chữa thay thế mà thời hạn bảo hành còn lại của sản phẩm nhiều hơn ba (03) 
+    tháng thời hạn bảo hành của linh kiện thay thế được tính theo thời hạn bảo hành còn lại của sản phẩm;
+
+    2. Tại thời điểm sửa chữa thay thế mà thời hạn bảo hành còn lại của sản phẩm ít hơn ba (03) tháng, thời
+    hạn bảo hành của linh kiện thay thế được áp dụng là ba (03) tháng.
+ 
+III.Thời hạn bảo hành đối với sản phẩm được đổi mới
+ 
+    1. Nếu tại thời điểm đổi mới sản phẩm mà thời hạn bảo hành còn lại của sản phẩm cũ đang sử dụng nhiều hơn
+    sáu (06) tháng thì thời hạn bảo hành của sản phẩm đổi mới được tính bằng với thời hạn bảo hành còn lại của
+    sản phẩm cũ đang sử dụng;
+    2. Nếu tại thời điểm đổi mới sản phẩm mà thời hạn bảo hành còn lại của sản phẩm cũ đang sử dụng nhỏ hơn sáu
+    (06) tháng thì thời hạn bảo hành của sản phẩm đổi mới được tính là sáu (06) tháng.
+ 
+IV.Điều kiện bảo hành
+ 
+    1. Sản phẩm được sản xuất bởi Samsung và được phân phối chính thức tại thị trường Việt Nam;
+    2. Lỗi kỹ thuật cần được sửa chữa phát sinh trong Thời hạn Bảo hành;
+    3. Sản phẩm không thuộc trường hợp từ chối bảo hành.
+ 
+V.Điều kiện bảo hành màn hình LED và tivi LED
+ 
+    1. Không hình hoặc không màn sáng;
+    2. Hình ảnh sai màu hoặc mờ;
+    3. Có đường sọc ngang hoặc dọc màn hình dài 03 mm trở lên;
+    4. Chấm trắng;
+    5. Hai chấm đen có khoảng cách nhỏ hơn 5mm;
+    6. Năm chấm đen hoặc nhiều hơn rải rác trên màn hình;
+    Lưu ý: Chấm là tập hợp có ít nhất 3 điểm màu cạnh nhau.
+ 
+VI.Trường hợp ngoài phạm vi bảo hành
+ 
+    1. Những trường hợp không thuộc phạm vi bảo hành
+        a) Sản phẩm hết hạn bảo hành;
+        b) Sản phẩm bị hư hỏng do hao mòn thông thường, gặp tai nạn, bị sử dụng sai cách, không được vệ sinh đúng
+        cách (bao gồm phần bên ngoài, bên trong, các loại bộ lọc vệ sinh), không được bảo dưỡng và thực hiện dich
+        vụ đúng cách, bị côn trùng, sâu bọ bao gồm nhưng không giới hạn động vật chui vào, lắp đặt không đủ hoặc 
+        sai, vận hành sai, sử dụng quá nhiều, sử dụng sai mục đích thiết kế, sử dụng pin lỗi hay pin đã rò rỉ, 
+        sai điện áp, hư hỏng do ngoại lực tác động;
+        c) Sản phẩm đã được sử dụng với mục đích thương mại hay mục đích khác không phải tiêu dùng thông thường
+        (ngoại trừ các Sản phẩm được Samsung chỉ định dùng với mục đích thương mại);
+        d) Sản phẩm không được bảo hành tại Việt Nam, trừ các sản phẩm được bảo hành toàn cầu căn cứ theo Chính
+        sách Bảo hành Samsung;
+        e) Thiên tai hay Sự kiện Bất Khả Kháng, bao gồm nhưng không giới hạn hỏa hoạn hay hư hỏng do chất lỏng;
+        f) Không bảo hành phụ tùng kèm theo như dây cáp, đầu nối tín hiệu, thẻ nhớ…
+ 
+    2. Những trường hợp mất quyền bảo hành 
+        a) Sản phẩm không còn mang số sê-ri của nhà sản xuất; 
+        b) Sản phẩm đã được một bên khác không phải là Samsung hay TTBHUQ của Samsung sửa chữa, thực hiện dịch vụ
+        hay can thiệp vào bằng bất kỳ cách nào;
+        c) Khách hàng không cung cấp môi trường phù hợp cho Sản phẩm, bao gồm nhưng không giới hạn việc không 
+        cung cấp nguồn điện/ nguồn nước phù hợp, nguồn điện gặp sự cố, để dị vật như chất lỏng, hơi ẩm hay bụi
+        bẩn lọt vào hay tác động lên Sản phẩm;
+        d) Bất kỳ sự thay đổi nào đối với Sản phẩm, dù có sử dụng thiết bị hay bộ phận bổ sung hay không;
+        e) Gắn thêm phụ kiện cơ khí, điện hay bất kỳ loại nào khác không được Samsung cung cấp và ủy quyền;
+        f) Đã thay đổi bất kỳ đặc tính nào của sản phẩm bởi người khác không phải là Samsung;
+        g) Gắn thêm hoặc tháo bớt phụ kiện, linh kiện hay thiết bị khác trên Sản phẩm;
+
+                                        B. CÁC DỊCH VỤ CỦA SAMSUNG
+
+I.Tổng đài Chăm sóc khách hàng của Samsung (Samsung CCC)
+
+    1.Số điện thoại miễn phí toàn quốc 1800-588-889, cung cấp cho khách hàng phương tiện liên lạc để yêu cầu dịch 
+    vụ, chính sách bảo hành, hỏi về thông tin sản phẩm, thông tin khuyến mại….
+
+    2.Chi phí cuộc gọi sẽ được chi trả bởi Samsung
+ 
+II.Các dịch vụ bảo hành tiêu chuẩn
+    1. Dịch vụ sửa chữa tại Trung tâm bảo hành ủy quyền
+    Áp dụng cho các sản phẩm: 1, 4, 6, 7, 8, 9, 10, 13 (Xem bảng 1).
+    Khách hàng liên hệ và trực tiếp mang sản phẩm đến các TTBHUQ của Samsung trên toàn quốc.
+ 
+    2. Dịch vụ sửa chữa tại nhà khách hàng
+    Áp dụng cho các sản phẩm thuộc nhóm 2, 3, 5, 8(**), 11, 12, 14 (Xem bảng 1);
+    Để được sử dụng dịch vụ bảo hành tại nhà, khách hàng liên hệ trực tiếp với Samsung CCC. Trong trường hợp 
+    khách hàng liên hệ đến TTBHUQ, TTBHUQ phải thông báo cho Samsung CCC trước khi tiến hành dịch vụ tại nhà 
+    khách hàng. TTBHUQ xác lập cuộc hẹn để việc bảo hành được thuận lợi nhất cho khách hàng.
+ 
+(***) Dịch vụ sửa chữa tại nhà khách hàng chỉ áp dụng tại: Thành phố Hồ Chí Minh, Hà Nội, Hải Phòng, Đà Nẵng.
+ 
+    3. Dịch vụ lắp đặt tại nhà
+    Samsung cung cấp dịch vụ lắp đặt miễn phí tại nhà khách hàng. Áp dụng cho các sản phẩm: Tivi từ 40 in trở 
+    lên, Tủ lạnh Side By Side, Máy giặt cửa trước, Máy sấy.Để được sử dụng dịch vụ lắp đặt tại nhà, khách hàng
+    liên hệ trực tiếp với Tổng Đài Samsung 1800 588 889 hoặc liên hệ hỗ trợ trực tuyến . Trong trường hợp khách
+    hàng liên hệ đến TTBHUQ, TTBHUQ phải thông báo cho Tổng Đài Samsung  trước khi tiến hành dịch vụ lắp đặt tại
+    nhà khách hàng. TTBHUQ xác lập cuộc hẹn để việc bảo hành được thuận lợi nhất cho khách hàng;Việc lắp đặt bao
+    gồm lắp đặt chân đế hoặc lắp đặt giá treo, hướng dẫn và tư vấn khách hàng sử dụng sản phẩm.
+ 
+III.Dịch vụ sửa chữa ngoài bảo hành
+    Khi sản phẩm ngoài phạm vi bảo hành được quy định tại Điều 1.6, các TTBHUQ của Samsung phục vụ và sửa chữa sản
+    phẩm với thái độ và tinh thần cao nhất. Khách hàng sẽ trả tất cả chi phí phát sinh cho việc sửa chữa đối với
+    linh kiện thay thế, tiền công và chi phí khác (nếu có).
+ 
+    Đối với các dịch vụ ngoài bảo hành, TTBHUQ của Samsung sẽ cung cấp dịch vụ sửa chữa và/hoặc thay thế linh kiện
+    nếu linh kiện có sẵn và sản phẩm có hư hỏng thực tế. Samsung có quyền từ chối cung cấp dịch vụ ngoài bảo hành 
+    nếu sản phẩm không thực hỏng; hoặc không còn đầy đủ linh kiện; hoặc đã được can thiệp bởi một bên khác không 
+    phải Samsung hay TTBHUQ.
+ 
+    TTBHUQ có thể cung cấp dịch vụ ngoài bảo hành và tính phí cho các sản phẩm mang thương hiệu Samsung nhưng không 
+    được phân phối chính thức tại thị trường Việt Nam:
+        -  Nếu hư hỏng có thể sửa chữa được.
+        - Chi phí có thể cao hơn và thời gian sửa chữa có thể lâu hơn so với các sản phẩm mang thương hiệu Samsung
+        được phân phối chính thức tại thị trường Việt Nam. Chi phí và thời gian sửa chữa được thỏa thuận bởi Khách
+        hàng và TTBHUQ.
+        - TTBH kiểm tra xem việc cung cấp dịch vụ có thể thực hiện hoặc không: 
+            + Trường hợp kích thước linh kiện lớn hoặc linh kiện không có sẳn.
+            + Trường hợp có sự khác biệt nhiều về đặc điểm kỹ thuật của sản phẩm bao gồm nhưng không giới hạn như
+            băng thông, điện áp.
+
+
+            </textarea>
+        </div>
+        <div id="bh6">
+            <img src="Img/BaoHanh/baohanh2.png" alt="">
+        </div>
+    </div>
+    <div id="divSuaChua">
+        <div id="divThuHoi0">
+            <span>SỬA CHỮA ĐIỆN THOẠI 7-PHONE</span>
+        </div>
+        <div id="divSuaChua1">
+            <div id="divSuaChua1_1"></div>
+            <div id="divSuaChua1_2"><span>Dịch vụ sửa chữa điện thoại uy tín tại Đà Nẵng</span></div>
+            <div id="divSuaChua1_1"></div>
+        </div>
+        <div id="divSuaChua2">
+            <span class="textsc1">Dịch vụ sửa chữa điện thoại uy tín, an toàn 7-Phone</span>
+            <p>Hãy đến ngay 7-Phone. Chúng tôi chuyên nhận sửa chữa tất cả các loại điện thoại – phụ kiện giá rẻ.
+                Sửa chữa các dòng điện thoại một cách nhanh chóng, uy tín. Cam kết khách hàng chất lượng và bảo hành tốt
+                nhất.
+                Nếu bạn đang ở Đà Nẵng thì nơi nào sửa điện thoại uy tín nhất? Đến ngay với hệ thống 7-Phone Đà Nẵng.
+                Bạn sẽ được sử dụng dịch vụ sửa chữa điện thoại giá rẻ chất lượng hàng đầu tại Đà Nẵng.</p><br>
+            <span class="textsc1">Những trường hợp dẫn đến điện thoại hư cần sửa ngay.</span>
+            <li> Màn hình bị mờ nhòe, xuất hiện sọc kẻ lạ hoặc bị vỡ. Trường hợp này xảy ra do vấn đề
+                phần mềm hoặc
+                do va đập mạnh dẫn đến nứt vỡ trên màn hình.</li>
+            <li> Cảm ứng của bạn bị chậm hoặc bị loạn, đơ. </li>
+            <li> Điện thoại tự động tắt nguồn hoặc tự động reset thường xuyên. Nguyên nhân gây ra tình trạng
+                này có
+                thể do pin, do chip xử lý, do chập mạch linh kiện. </li>
+            <li> Ứng dụng liên tục bị crash hoặc hệ điều hành bất ổn gây ra giật lag. Có lẽ bạn sẽ cần
+                cập nhật lên
+                hệ điều hành mới nhất để đảm bảo máy không bị lag &emsp;&ensp;và mọi ứng dụng đều tương
+                thích. </li>
+            <li> Điện thoại bị nóng lên, ngay cả khi bạn không dùng. Khả năng cao phần cứng bên trong đã bị
+                chập mạch,
+                dẫn đến tình trạng phát nhiệt bất thường và &emsp;&ensp;bạn cần sửa máy ngay.</li>
+            <li> Âm thanh trên máy gặp vấn đề. Các vấn đề này có thể là: video không phát ra tiếng, micro
+                không hoạt động,
+                loa trong hoặc loa ngoài bị rè,…</li>
+            <li> Kết nối sóng điện thoại hoặc Wifi bị chậm đi. Lỗi này xuất phát từ bộ phận Wifi và
+                ănten của máy bị hư hỏng.</li>
+            <li> Điện thoại bị va đập hoặc rơi xuống nước, dẫn đến vỏ biến dạng hoặc máy khó hoạt động.
+                Nếu chẳng may tình trạng
+                này xảy ra, bạn hãy nhanh chóng &emsp;&ensp;sửa máy để tránh tình trạng tệ hơn.</li>
+            <br>
+            <span class="textsc1">Tại sao bạn nên chọn dịch vụ sửa chữa điện thoại 7-Phone?</span>
+            <li> Dịch vụ sửa chữa điện thoại chuyên nghiệp, chu đáo tại 7-Phone. Với đội ngũ nhân viên nhiệt tình, vui
+                vẻ.
+                Sẵn sàng giúp bạn giải đáp mọi thắc mắc.</li>
+            <li>Các linh kiện đều chính hãng, trang thiết bị hiện đại. </li>
+            <li>Nhân viên kỹ thuật viên sửa chữa chuyên nghiệp tay nghề cao, kinh nghiệm lâu năm. </li>
+            <li> Quá trình làm việc tại RIN đều phải chuyên nghiệp, chuyên môn hoá cao. </li>
+            <li> Giá cả, chi phí hợp lý nhất trên thị trường.</li>
+            <li> Có chế độ bảo hành lâu, chu đáo dành cho khách hàng.</li>
+            <li> Dịch vụ sửa chữa lấy ngay đáp ứng nhu cầu thời gian của khách hàng.</li>
+            <br>
+            <span class="textsc1">Quy trình sửa chữa máy tính tận nơi của 7-Phone</span>
+            <li>Bước 1: Nhân viên tổng đài tiếp nhận thông tin và tư vấn khách hàng giá thành các dịch vụ của 7-Phone;
+            </li>
+            <li>Bước 2: Nhân viên tổng đài tiếp nhận thông tin và chuyển thông tin khách hàng đến bộ phận kỹ thuật;</li>
+            <li>Bước 3: Nhân viên kỹ thuật đến địa chỉ khách hàng cung cấp để tiến hành kiểm tra tổng thể máy bị hư
+                hỏng; </li>
+            <li>Bước 4: Thông báo lỗi và đề ra phương án sửa chữa tối ưu nhất dành cho khách hàng; </li>
+            <li>Bước 5: Tiến hành cài đặt hoặc sửa chữa theo phương án đã trao đổi với khách hàng;</li>
+            <li>Bước 6: Hoàn thành công việc và bàn giao cho khách hàng;</li>
+            <li>Bước 7: Kiểm tra tổng thể và xác nhận thanh toán.</li>
+            <br>
+            <span class="textsc1">7-Phone – Cung Cấp Dịch Vụ Sửa Chữa Máy Tính Chuyên Nghiệp</span>
+            <li> <span class="textdiachi">Địa Chỉ:</span>&ensp;Trường đại học CNTT & TT Việt Hàn , 470 Trần Đại Nghĩa,
+                phường Hòa Qúy, quận Ngũ Hành Sơn, Đà Nẵng</li>
+            <li><span class="textdiachi">Hotline:</span>&ensp; <span class="textmau">039 6090 576 – 08 3800 9698</span>
+            </li>
+            <li><span class="textdiachi">Email:</span>&ensp;<span class="textmau">7-Phone@vku.udn.vn</span></li>
+            <li><span class="textdiachi">Fanpage:</span>&ensp;<span
+                    class="textmau">https://www.facebook.com/7-phone/</span></li>
+            <li><span class="textdiachi">Website:</span>&ensp;<span class="textmau">https://7-phone.com.vn/</span></li>
+        </div>
+        <div id="divSuaChua1">
+            <div id="divSuaChua1_1"></div>
+            <div id="divSuaChua1_2"><span>Thông tin sản phẩm cần sửa chữa 7-Phone</span></div>
+            <div id="divSuaChua1_1"></div>
+        </div>
+        <div id="divThuHoi3" style="margin-top: 10px;margin-bottom: -30px;">
+            <div id="divThuHoi3_2">
+                <div class="divThuHoi3_2_">
+                    <div class="divThuHoi3_2_1">
+                        <span>Họ và tên<span style="color: red;">*</span></span>
+                    </div>
+                    <div class="divThuHoi3_2_2">
+                        <input type="text" name="" id="">
+                    </div>
+                </div>
+                <div class="divThuHoi3_2_">
+                    <div class="divThuHoi3_2_1">
+                        <span>CMND<span style="color: red;">*</span></span>
+                    </div>
+                    <div class="divThuHoi3_2_2">
+                        <input type="text" name="" id="">
+                    </div>
+                </div>
+                <div class="divThuHoi3_2_">
+                    <div class="divThuHoi3_2_1">
+                        <span>Số điện thoại<span style="color: red;">*</span></span>
+                    </div>
+                    <div class="divThuHoi3_2_2">
+                        <input type="text" name="" id="">
+                    </div>
+                </div>
+                <div class="divThuHoi3_2_">
+                    <div class="divThuHoi3_2_1">
+                        <span>Địa chỉ<span style="color: red;">*</span></span>
+                    </div>
+                    <div class="divThuHoi3_2_2">
+                        <input type="text" name="" id="">
+                    </div>
+                </div>
+                <div class="divThuHoi3_2_">
+                    <div class="divThuHoi3_2_1" style="margin-top: -10px;">
+                        <span>Loại điện thoại cần sửa chữa<span style="color: red;">*</span></span>
+                    </div>
+                    <div class="divThuHoi3_2_2">
+                        <select name="" id="">
+                            <option value="iPhone">iPhone</option>
+                            <option value="iPhone">Xiaomi</option>
+                            <option value="iPhone">OPPO</option>
+                            <option value="iPhone">Masstel</option>
+                            <option value="iPhone">SamSung</option>
+                            <option value="iPhone">Realme</option>
+                            <option value="iPhone">Huawei</option>
+                            <option value="iPhone">BPhone</option>
+                            <option value="iPhone">Vsmart</option>
+                            <option value="iPhone">Khác</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="divThuHoi3_2_">
+                    <div class="divThuHoi3_2_1" style="margin-top: -5px;">
+                        <span>Tình trạng <br> điện thoại<span style="color: red;">*</span></span>
+                    </div>
+                    <div class="divThuHoi3_2_2" style="margin-top: 10px;">
+                        <input type="text" name="" id="">
+                    </div>
+                </div>
+                <div class="divThuHoi3_2_">
+                    <div class="divThuHoi3_2_1">
+                        <span>Ảnh sản phẩm<span style="color: red;">*</span></span>
+                    </div>
+                    <div class="divThuHoi3_2_2" id="fileImg">
+                        <img src="Img/ThuHoi/fileImg1.png" alt="" style="height: 40px;width: 40px;">
+                    </div>
+                </div>
+                <div class="divThuHoi3_2_">
+                    <div class="divThuHoi3_2_1">
+                        <span>Ghi chú<span style="color: red;">*</span></span>
+                    </div>
+                    <div class="divThuHoi3_2_2" id="fileImg">
+                        <textarea name="" id="" cols="52" rows="6" required></textarea>
+                    </div>
+                </div>
+                <div id="submit"><span>Submit</span></div>
+            </div>
+        </div>
+        <div id="divSuaChua1">
+            <div id="divSuaChua1_1"></div>
+            <div id="divSuaChua1_2"><span>Bảng giá dịch vụ sửa chữa điện thoại 7-Phone</span></div>
+            <div id="divSuaChua1_1"></div>
+        </div>
+        <div class="divSuaChua3">
+            <div class="divSuaChua3_1">
+                <div class="divSuaChua3_" id="divSuaChua3_top">
+                    <div class="divscSuaGi" id="SuaGitop">Sửa chữa điện thoại</div>
+                    <div class="divscTien" id="Tientop">Giá tiền</div>
+                </div>
+                <div class="divSuaChua3_">
+                    <div class="divscSuaGi">Thay màn hình</div>
+                    <div class="divscTien">250.000<u>đ</u></div>
+                </div>
+                <div class="divSuaChua3_">
+                    <div class="divscSuaGi">Thay cảm ứng</div>
+                    <div class="divscTien">200.000<u>đ</u></div>
+                </div>
+                <div class="divSuaChua3_">
+                    <div class="divscSuaGi">Thay pin</div>
+                    <div class="divscTien">200.000<u>đ</u></div>
+                </div>
+                <div class="divSuaChua3_">
+                    <div class="divscSuaGi">Thay dây nguồn nút nguồn</div>
+                    <div class="divscTien">150.000<u>đ</u></div>
+                </div>
+                <div class="divSuaChua3_">
+                    <div class="divscSuaGi">Thay dây nguồn đuôi sạc</div>
+                    <div class="divscTien">150.000<u>đ</u></div>
+                </div>
+                <div class="divSuaChua3_">
+                    <div class="divscSuaGi">Thay dây nguồn loa</div>
+                    <div class="divscTien">150.000<u>đ</u></div>
+                </div>
+                <div class="divSuaChua3_">
+                    <div class="divscSuaGi">Không nhận sạc, không nhận USB</div>
+                    <div class="divscTien">250.000<u>đ</u></div>
+                </div>
+                <div class="divSuaChua3_">
+                    <div class="divscSuaGi">Sửa trên main đổi main</div>
+                    <div class="divscTien">400.000<u>đ</u></div>
+                </div>
+                <div class="divSuaChua3_">
+                    <div class="divscSuaGi">Thay Mic</div>
+                    <div class="divscTien">170.000<u>đ</u></div>
+                </div>
+                <div class="divSuaChua3_">
+                    <div class="divscSuaGi">Thay Pin zin ( bảo hành 3 tháng )</div>
+                    <div class="divscTien">200.000<u>đ</u></div>
+                </div>
+                <div class="divSuaChua3_">
+                    <div class="divscSuaGi">Thay Nút home (nút menu ko ăn)</div>
+                    <div class="divscTien">150.000<u>đ</u></div>
+                </div>
+                <div class="divSuaChua3_">
+                    <div class="divscSuaGi">Thay Chui sạc( máy không sạc được )</div>
+                    <div class="divscTien">170.000<u>đ</u></div>
+                </div>
+                <div class="divSuaChua3_">
+                    <div class="divscSuaGi">Camera zin theo máy</div>
+                    <div class="divscTien">150.000<u>đ</u></div>
+                </div>
+            </div>
+            <div class="divSuaChua3_2">
+                <div class="divSuaChua3_" id="divSuaChua3_top">
+                    <div class="divscSuaGi" id="SuaGitop">Sửa chữa điện thoại</div>
+                    <div class="divscTien" id="Tientop">Giá tiền</div>
+                </div>
+                <div class="divSuaChua3_">
+                    <div class="divscSuaGi">Mất sóng</div>
+                    <div class="divscTien">250.000<u>đ</u></div>
+                </div>
+                <div class="divSuaChua3_">
+                    <div class="divscSuaGi">Mất cảm ứng, liệt vài phím</div>
+                    <div class="divscTien">150.000<u>đ</u></div>
+                </div>
+                <div class="divSuaChua3_">
+                    <div class="divscSuaGi">Mất đèn</div>
+                    <div class="divscTien">100.000<u>đ</u></div>
+                </div>
+                <div class="divSuaChua3_">
+                    <div class="divscSuaGi">Mất wifi ( No wifi hoặc wifi không bắt sóng được )</div>
+                    <div class="divscTien">160.000<u>đ</u></div>
+                </div>
+                <div class="divSuaChua3_">
+                    <div class="divscSuaGi">Mất âm thanh</div>
+                    <div class="divscTien">120.000<u>đ</u></div>
+                </div>
+                <div class="divSuaChua3_">
+                    <div class="divscSuaGi">Mất nguồn ( chết IC nguồn )</div>
+                    <div class="divscTien">180.000<u>đ</u></div>
+                </div>
+                <div class="divSuaChua3_">
+                    <div class="divscSuaGi">Mất camera trước</div>
+                    <div class="divscTien">300.000<u>đ</u></div>
+                </div>
+                <div class="divSuaChua3_">
+                    <div class="divscSuaGi">Mất đèn Flash khi chụp hình</div>
+                    <div class="divscTien">150.000<u>đ</u></div>
+                </div>
+                <div class="divSuaChua3_">
+                    <div class="divscSuaGi">Thay ổ sim</div>
+                    <div class="divscTien">250.000<u>đ</u></div>
+                </div>
+                <div class="divSuaChua3_">
+                    <div class="divscSuaGi">Mất loa, tai phone nghe rè (lỗi IC Audio)</div>
+                    <div class="divscTien">400.000<u>đ</u></div>
+                </div>
+                <div class="divSuaChua3_">
+                    <div class="divscSuaGi">Xanh màn hình</div>
+                    <div class="divscTien">150.000<u>đ</u></div>
+                </div>
+                <div class="divSuaChua3_">
+                    <div class="divscSuaGi">Không xoay được màn hình</div>
+                    <div class="divscTien">250.000<u>đ</u></div>
+                </div>
+                <div class="divSuaChua3_">
+                    <div class="divscSuaGi">Xài nóng máy , hao pin ( lỗi IC )</div>
+                    <div class="divscTien">1.200.000<u>đ</u></div>
+                </div>
+            </div>
+            <div class="divSuaChua3_1">
+                <div class="divSuaChua3_" id="divSuaChua3_top">
+                    <div class="divscSuaGi" id="SuaGitop">Sửa chữa điện thoại</div>
+                    <div class="divscTien" id="Tientop">Giá tiền</div>
+                </div>
+                <div class="divSuaChua3_">
+                    <div class="divscSuaGi">Thay Vỏ sau có 3G</div>
+                    <div class="divscTien">1.250.000<u>đ</u></div>
+                </div>
+                <div class="divSuaChua3_">
+                    <div class="divscSuaGi">Không nhận sim </div>
+                    <div class="divscTien">450.000<u>đ</u></div>
+                </div>
+                <div class="divSuaChua3_">
+                    <div class="divscSuaGi">Không hiển thị màn hình</div>
+                    <div class="divscTien">600.000<u>đ</u></div>
+                </div>
+                <div class="divSuaChua3_">
+                    <div class="divscSuaGi">Restore báo lỗi 9, 28, 40</div>
+                    <div class="divscTien">950.000<u>đ</u></div>
+                </div>
+                <div class="divSuaChua3_">
+                    <div class="divscSuaGi">Thay dây nguồn đuôi sạc</div>
+                    <div class="divscTien">150.000<u>đ</u></div>
+                </div>
+                <div class="divSuaChua3_">
+                    <div class="divscSuaGi">Thay dây nguồn loa</div>
+                    <div class="divscTien">150.000<u>đ</u></div>
+                </div>
+                <div class="divSuaChua3_">
+                    <div class="divscSuaGi">Không nhận sạc, không nhận USB</div>
+                    <div class="divscTien">250.000<u>đ</u></div>
+                </div>
+                <div class="divSuaChua3_">
+                    <div class="divscSuaGi">Sửa trên main đổi main</div>
+                    <div class="divscTien">400.000<u>đ</u></div>
+                </div>
+                <div class="divSuaChua3_">
+                    <div class="divscSuaGi">Thay Mic</div>
+                    <div class="divscTien">170.000<u>đ</u></div>
+                </div>
+                <div class="divSuaChua3_">
+                    <div class="divscSuaGi">Thay Pin zin ( bảo hành 3 tháng )</div>
+                    <div class="divscTien">200.000<u>đ</u></div>
+                </div>
+                <div class="divSuaChua3_">
+                    <div class="divscSuaGi">Thay Nút home (nút menu ko ăn)</div>
+                    <div class="divscTien">150.000<u>đ</u></div>
+                </div>
+                <div class="divSuaChua3_">
+                    <div class="divscSuaGi">Thay Chui sạc( máy không sạc được )</div>
+                    <div class="divscTien">170.000<u>đ</u></div>
+                </div>
+                <div class="divSuaChua3_">
+                    <div class="divscSuaGi">Camera zin theo máy</div>
+                    <div class="divscTien">150.000<u>đ</u></div>
+                </div>
+            </div>
+            <div class="divSuaChua3_2">
+                <div class="divSuaChua3_" id="divSuaChua3_top">
+                    <div class="divscSuaGi" id="SuaGitop">Sửa chữa điện thoại</div>
+                    <div class="divscTien" id="Tientop">Giá tiền</div>
+                </div>
+                <div class="divSuaChua3_">
+                    <div class="divscSuaGi">Mất sóng</div>
+                    <div class="divscTien">250.000<u>đ</u></div>
+                </div>
+                <div class="divSuaChua3_">
+                    <div class="divscSuaGi">Mất cảm ứng, liệt vài phím</div>
+                    <div class="divscTien">150.000<u>đ</u></div>
+                </div>
+                <div class="divSuaChua3_">
+                    <div class="divscSuaGi">Mất đèn</div>
+                    <div class="divscTien">100.000<u>đ</u></div>
+                </div>
+                <div class="divSuaChua3_">
+                    <div class="divscSuaGi">Mất wifi ( No wifi hoặc wifi không bắt sóng được )</div>
+                    <div class="divscTien">160.000<u>đ</u></div>
+                </div>
+                <div class="divSuaChua3_">
+                    <div class="divscSuaGi">Mất âm thanh</div>
+                    <div class="divscTien">120.000<u>đ</u></div>
+                </div>
+                <div class="divSuaChua3_">
+                    <div class="divscSuaGi">Mất nguồn ( chết IC nguồn )</div>
+                    <div class="divscTien">180.000<u>đ</u></div>
+                </div>
+                <div class="divSuaChua3_">
+                    <div class="divscSuaGi">Mất camera trước</div>
+                    <div class="divscTien">300.000<u>đ</u></div>
+                </div>
+                <div class="divSuaChua3_">
+                    <div class="divscSuaGi">Mất đèn Flash khi chụp hình</div>
+                    <div class="divscTien">150.000<u>đ</u></div>
+                </div>
+                <div class="divSuaChua3_">
+                    <div class="divscSuaGi">Thay ổ sim</div>
+                    <div class="divscTien">250.000<u>đ</u></div>
+                </div>
+                <div class="divSuaChua3_">
+                    <div class="divscSuaGi">Mất loa, tai phone nghe rè (lỗi IC Audio)</div>
+                    <div class="divscTien">400.000<u>đ</u></div>
+                </div>
+                <div class="divSuaChua3_">
+                    <div class="divscSuaGi">Xanh màn hình</div>
+                    <div class="divscTien">150.000<u>đ</u></div>
+                </div>
+                <div class="divSuaChua3_">
+                    <div class="divscSuaGi">Không xoay được màn hình</div>
+                    <div class="divscTien">250.000<u>đ</u></div>
+                </div>
+                <div class="divSuaChua3_">
+                    <div class="divscSuaGi">Xài nóng máy , hao pin ( lỗi IC )</div>
+                    <div class="divscTien">1.200.000<u>đ</u></div>
+                </div>
+            </div>
+        </div>
+        <div id="divSuaChua4">
+            <img src="Img/BaoHanh/nenSuaChua.png" alt="">
+        </div>
+    </div>
+    <div id="divLienHe">
+        <div id="divThuHoi0">
+            <span>LIÊN HỆ VỚI CHÚNG TÔI</span>
+        </div>
+        <div id="divSuaChua1" style="margin-bottom: 50px;">
+            <div id="divSuaChua1_1"></div>
+            <div id="divSuaChua1_2"><span>Tin tức, chủ đề công nghệ nổi bật cùng 7-Phone</span></div>
+            <div id="divSuaChua1_1"></div>
+        </div>
+        <div id="divLienHe1">
+            <div id="divLienHe1_1">
+                <div class="divLienHe1_1_1">CHỦ ĐỀ NỔI BẬT</div>
+                <div class="divLienHe1_1_2" id="android">
+                    <div class="divLienHe1_1_2_1">
+                        <img src="Img/HoiDap/android.png" alt="">
+                    </div>
+                    <div class="divLienHe1_1_2_2">Android</div>
+                    <div class="divLienHe1_1_2_3">
+                        <img src="Img/HoiDap/down.png" alt="">
+                    </div>
+                </div>
+                <div class="divLienHe1_1_2" id="iphone">
+                    <div class="divLienHe1_1_2_1">
+                        <img src="Img/HoiDap/apple.png" alt="">
+                    </div>
+                    <div class="divLienHe1_1_2_2">iPhone - iOS</div>
+                    <div class="divLienHe1_1_2_3">
+                        <img src="Img/HoiDap/down.png" alt="">
+                    </div>
+                </div>
+                <div class="divLienHe1_1_2" id="network">
+                    <div class="divLienHe1_1_2_1">
+                        <img src="Img/HoiDap/netwwork.png" alt="">
+                    </div>
+                    <div class="divLienHe1_1_2_2">Mạng xã hội</div>
+                    <div class="divLienHe1_1_2_3">
+                        <img src="Img/HoiDap/down.png" alt="">
+                    </div>
+                </div>
+                <div class="divLienHe1_1_2" id="game">
+                    <div class="divLienHe1_1_2_1">
+                        <img src="Img/HoiDap/game.png" alt="">
+                    </div>
+                    <div class="divLienHe1_1_2_2">Thủ Thuật Game</div>
+                    <div class="divLienHe1_1_2_3">
+                        <img src="Img/HoiDap/down.png" alt="">
+                    </div>
+                </div>
+                <div class="divLienHe1_1_2" id="product">
+                    <div class="divLienHe1_1_2_1">
+                        <img src="Img/HoiDap/idea.png" alt="">
+                    </div>
+                    <div class="divLienHe1_1_2_2">Phụ kiện và sản phẩm khác</div>
+                    <div class="divLienHe1_1_2_3">
+                        <img src="Img/HoiDap/down.png" alt="">
+                    </div>
+                </div>
+                <div class="divLienHe1_1_2" id="iot">
+                    <div class="divLienHe1_1_2_1">
+                        <img src="Img/HoiDap/iot.png" alt="">
+                    </div>
+                    <div class="divLienHe1_1_2_2">Thiết bị thông minh</div>
+                    <div class="divLienHe1_1_2_3">
+                        <img src="Img/HoiDap/down.png" alt="">
+                    </div>
+                </div>
+                <div class="divLienHe1_1_2" id="micro">
+                    <div class="divLienHe1_1_2_1">
+                        <img src="Img/HoiDap/microsoft.png" alt="">
+                    </div>
+                    <div class="divLienHe1_1_2_2">Thủ thuật văn phòng</div>
+                    <div class="divLienHe1_1_2_3">
+                        <img src="Img/HoiDap/down.png" alt="">
+                    </div>
+                </div>
+                <div class="divLienHe1_1_2" id="guarantee">
+                    <div class="divLienHe1_1_2_1">
+                        <img src="Img/HoiDap/guarantee.png" alt="">
+                    </div>
+                    <div class="divLienHe1_1_2_2">Bảo hành</div>
+                    <div class="divLienHe1_1_2_3">
+                        <img src="Img/HoiDap/down.png" alt="">
+                    </div>
+                </div>
+                <div class="divLienHe1_1_2" id="repair">
+                    <div class="divLienHe1_1_2_1">
+                        <img src="Img/HoiDap/repair.png" alt="">
+                    </div>
+                    <div class="divLienHe1_1_2_2">Sửa chữa</div>
+                    <div class="divLienHe1_1_2_3">
+                        <img src="Img/HoiDap/down.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div id="divLienHe1_2">
+                <div class="divLienHe1_2_1">TIN CÔNG NGHỆ MỚI NHẤT</div>
+                <div class="divLienHe1_2_2">
+                    <div class="divLienHe1_2_2_1">
+                        <img src="Img/HoiDap/tin1.png" alt="">
+                    </div>
+                    <div class="divLienHe1_2_2_2">Tần số quét trên điện thoại là gì? Có phải là xu hướng tương lai?
+                        <br><br><span style="font-size: 18px;font-family: 'Courier New', Courier, monospace;">Tư vấn
+                            chọn mua</span>
+                    </div>
+                </div>
+                <div class="divLienHe1_2_2">
+                    <div class="divLienHe1_2_2_1">
+                        <img src="Img/HoiDap/tin2.png" alt="">
+                    </div>
+                    <div class="divLienHe1_2_2_2">Pin điện thoại còn bao nhiêu phần trăm thì nên sạc, bạn đã biết chưa?
+                        <br><br><span style="font-size: 18px;font-family: 'Courier New', Courier, monospace;">Thủ thuật
+                            - mẹo sử sụng</span>
+                    </div>
+                </div>
+                <div class="divLienHe1_2_2">
+                    <div class="divLienHe1_2_2_1">
+                        <img src="Img/HoiDap/tin3.png" alt="">
+                    </div>
+                    <div class="divLienHe1_2_2_2">Công nghệ màn hình Sunlight Super AMOLED trên smartphone
+                        <br><br><span style="font-size: 18px;font-family: 'Courier New', Courier, monospace;">Phụ kiện
+                            và sản phẩm khác</span>
+                    </div>
+                </div>
+                <div class="divLienHe1_2_2">
+                    <div class="divLienHe1_2_2_1">
+                        <img src="Img/HoiDap/tin4.png" alt="">
+                    </div>
+                    <div class="divLienHe1_2_2_2">Tìm hiểu về cáp kết nối Micro USB
+                        <br><br><span style="font-size: 18px;font-family: 'Courier New', Courier, monospace;">Phụ kiện
+                            thông minh</span>
+                    </div>
+                </div>
+                <div class="divLienHe1_2_2">
+                    <div class="divLienHe1_2_2_1">
+                        <img src="Img/HoiDap/tin5.png" alt="">
+                    </div>
+                    <div class="divLienHe1_2_2_2">Cách chụp ảnh trang và chỉnh sửa ảnh trong Microsoft Word đơn giản
+                        <br><br><span style="font-size: 18px;font-family: 'Courier New', Courier, monospace;">Thủ thuật
+                            văn phòng Word</span>
+                    </div>
+                </div>
+                <div class="divLienHe1_2_2">
+                    <div class="divLienHe1_2_2_1">
+                        <img src="Img/HoiDap/tin6.png" alt="">
+                    </div>
+                    <div class="divLienHe1_2_2_2">Chuột gaming khác gì chuột văn phòng? Ưu, nhược điểm như thế nào?
+                        <br><br><span style="font-size: 18px;font-family: 'Courier New', Courier, monospace;">Phụ kiện
+                            và sản phẩm khác</span>
+                    </div>
+                </div>
+            </div>
+            <div id="divSuaChua1" style="margin-bottom: 50px;">
+                <div id="divSuaChua1_1"></div>
+                <div id="divSuaChua1_2"><span>Chuyên mục hỏi và đáp cùng 7-Phone</span></div>
+                <div id="divSuaChua1_1"></div>
+            </div>
+        </div>
+        <div id="divLienHe2">
+
+            <div class="divLienHe3">
+                <div class="divLienHe3_1"> <img src="Img/HoiDap/user.png" alt=""></div>
+                <div class="divLienHe3_2">
+                    <div class="divLienHe3_2_1">
+                        <div class="textlh3_1">Người dùng </div>
+                        <div class="textlh3_2">Cho mình hỏi con sam sung a12 và con nokia 5.4 sau khi trừ toàn bộ
+                            quà tặng thì
+                            giá cuối cùng là bao nhiêu ạ? Mong phản hồi sớm</div>
+                    </div>
+                    <div class="divLienHe3_2_2">
+                        <div class="divLienHe3_2_2_1"><img src="Img/HoiDap/comments.png" alt=""></div>
+                        <div class="divLienHe3_2_2_2">
+                            <a href=""><span style="color:red">Trả lời </span></a>
+                            <a href=""><span> | 21 giờ trước</span></a>
+                        </div>
+                    </div>
+                    <div class="divLienHe3_2_3">
+                        <div class="divLienHe3_2_3_1"><img src="Img/HoiDap/7.png" alt=""></div>
+                        <div class="divLienHe3_2_3_2">
+                            <span style="font-weight: 600;font-size: 24px;">7-Phone Shop</span><br><br>
+                            <span>Dạ anh tham khả <br>
+                                1.SAMSUNG GALAXY A12 4GB 128GB ĐEN (SM-A125F) giá thời điểm hiện tại 3.600.000 (HN)<br>
+                                2.NOKIA 5.4 TÍM giá thời điểm hiện tại 3.290.000 (HN)<br>
+                                Không biết anh ở quận nào để em gửi địa chỉ gần nhất đến anh ạ? Chi tiết hơn em xin được
+                                liên hệ anh qua SĐT để tư vấn tốt hơn ạ.
+                                Xin thông tin đến Anh ạ.</span>
+                        </div>
+                        <div class="divLienHe3_2_2" style="margin-left: 50px;">
+                            <div class="divLienHe3_2_2_1"><img src="Img/HoiDap/comments.png" alt=""></div>
+                            <div class="divLienHe3_2_2_2">
+                                <a href=""><span style="color:red">Trả lời </span></a>
+                                <a href=""><span> | 22 giờ trước</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="divLienHe3" style="margin-top: 60px;">
+                <div class="divLienHe3_1"> <img src="Img/HoiDap/user.png" alt=""></div>
+                <div class="divLienHe3_2">
+                    <div class="divLienHe3_2_1">
+                        <div class="textlh3_1">Đình Dũng </div>
+                        <div class="textlh3_2">Dạ cho em hỏi bên mình có thu dòng máy samsung m31, còn bảo hành. Ngoài
+                            máy trầy xước nhưng còn hoạt
+                            động tốt kh ạ. Mình định giá giúp em với luôn đc kh?</div>
+                    </div>
+                    <div class="divLienHe3_2_2">
+                        <div class="divLienHe3_2_2_1"><img src="Img/HoiDap/comments.png" alt=""></div>
+                        <div class="divLienHe3_2_2_2">
+                            <a href=""><span style="color:red">Trả lời </span></a>
+                            <a href=""><span> | 24 giờ trước</span></a>
+                        </div>
+                    </div>
+                    <div class="divLienHe3_2_3">
+                        <div class="divLienHe3_2_3_1"><img src="Img/HoiDap/7.png" alt=""></div>
+                        <div class="divLienHe3_2_3_2">
+                            <span style="font-weight: 600;font-size: 24px;">7-Phone Shop</span><br><br>
+                            <span>Dạ trường hợp máy của mình là Samsung M31 có ngoại hình trầy xước, chức năng máy hoạt
+                                động tốt,
+                                7-Phone sẽ thu lại với mức giá 1.380.000đ. Để biết chính xác giá mình giúp em mang máy
+                                đến
+                                cửa hàng để nhân viên kiểm tra và định giá cho mình ạ.</span>
+                        </div>
+                        <div class="divLienHe3_2_2" style="margin-left: 50px;">
+                            <div class="divLienHe3_2_2_1"><img src="Img/HoiDap/comments.png" alt=""></div>
+                            <div class="divLienHe3_2_2_2">
+                                <a href=""><span style="color:red">Trả lời </span></a>
+                                <a href=""><span> | 24 giờ trước</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="divLienHe3" style="margin-top: 60px;">
+                <div class="divLienHe3_1"> <img src="Img/HoiDap/user.png" alt=""></div>
+                <div class="divLienHe3_2">
+                    <div class="divLienHe3_2_1">
+                        <div class="textlh3_1">Kết Đoàn Nguyễn</div>
+                        <div class="textlh3_2">Bên shop có mua điện thoại samsung galaxy a5 2017 còn nguyên zin ko vậy?
+                        </div>
+                    </div>
+                    <div class="divLienHe3_2_2">
+                        <div class="divLienHe3_2_2_1"><img src="Img/HoiDap/comments.png" alt=""></div>
+                        <div class="divLienHe3_2_2_2">
+                            <a href=""><span style="color:red">Trả lời </span></a>
+                            <a href=""><span> | 1 ngày trước</span></a>
+                        </div>
+                    </div>
+                    <div class="divLienHe3_2_3">
+                        <div class="divLienHe3_2_3_1"><img src="Img/HoiDap/7.png" alt=""></div>
+                        <div class="divLienHe3_2_3_2">
+                            <span style="font-weight: 600;font-size: 24px;">7-Phone Shop</span><br><br>
+                            <span>Dạ trường hợp SAMSUNG Galaxy A5 2017 của mình tình trạng máy còn đẹp, các
+                                chức năng hoạt động
+                                tốt, màn hình đẹp, 7-Phone hỗ trợ thu lại khoảng 690.000. Nếu đúng hình
+                                thức, chức năng máy
+                                không lỗi sẽ được nhập lại với mức giá như trên. Em mời mình đến cửa hàng
+                                để kỹ thuật viên thẩm
+                                định máy cho mình nhé.
+                                <br> Thân mến.</span>
+                        </div>
+                        <div class="divLienHe3_2_2" style="margin-left: 50px;">
+                            <div class="divLienHe3_2_2_1"><img src="Img/HoiDap/comments.png" alt=""></div>
+                            <div class="divLienHe3_2_2_2">
+                                <a href=""><span style="color:red">Trả lời </span></a>
+                                <a href=""><span> | 1 ngày trước</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="divLienHe3" style="margin-top: 60px;">
+                <div class="divLienHe3_1"> <img src="Img/HoiDap/user.png" alt=""></div>
+                <div class="divLienHe3_2">
+                    <div class="divLienHe3_2_1">
+                        <div class="textlh3_1">Tokyo Ghoul</div>
+                        <div class="textlh3_2">Mình có con vivo y11 dùng được đúng hai tuần nhưng không thích lắm muốn
+                            lên
+                            vsmart joy 4 4gb thì thêm bao nhiêu ạ.Mình cảm ơn</div>
+                    </div>
+                    <div class="divLienHe3_2_2">
+                        <div class="divLienHe3_2_2_1"><img src="Img/HoiDap/comments.png" alt=""></div>
+                        <div class="divLienHe3_2_2_2">
+                            <a href=""><span style="color:red">Trả lời </span></a>
+                            <a href=""><span> | 1 ngày trước</span></a>
+                        </div>
+                    </div>
+                    <div class="divLienHe3_2_3">
+                        <div class="divLienHe3_2_3_1"><img src="Img/HoiDap/7.png" alt=""></div>
+                        <div class="divLienHe3_2_3_2">
+                            <span style="font-weight: 600;font-size: 24px;">7-Phone Shop</span><br><br>
+                            <span>Dạ trường hợp Máy của mình là Vivo Y11 có ngoại hình và màn đẹp , máy đầy đủ chức năng
+                                và phụ
+                                kiện 7-Phone sẽ thu lại với mức giá 1.000.000 ạ. Nếu được, mình chỉ cần mang máy đến cửa
+                                hàng
+                                để kỹ thuật viên thẩm định và hỗ trợ ạ. Sản phẩm VSMART JOY 4 4G 64G ĐEN giá thời điểm
+                                hiện tại
+                                3.090.000 ạ. Không biết mình ở quận nào để em báo cửa hàng gần nhất giúp mình tham khảo
+                                sản phẩm
+                                ạ . Chi tiết hơn em xin phép liên hệ với mình qua SĐT ******772 nhé ạ.</span>
+                        </div>
+                        <div class="divLienHe3_2_2" style="margin-left: 50px;">
+                            <div class="divLienHe3_2_2_1"><img src="Img/HoiDap/comments.png" alt=""></div>
+                            <div class="divLienHe3_2_2_2">
+                                <a href=""><span style="color:red">Trả lời </span></a>
+                                <a href=""><span> | 1 ngày trước</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="divLienHe3" style="margin-top: 60px;">
+                <div class="divLienHe3_1"> <img src="Img/HoiDap/user.png" alt=""></div>
+                <div class="divLienHe3_2">
+                    <div class="divLienHe3_2_1">
+                        <div class="textlh3_1">Sword Art Online</div>
+                        <div class="textlh3_2">tôi có 2 triệu thì tôi nên mua điện thoại nào mà ram 3gb đến 4gb, pin
+                            phải trâu</div>
+                    </div>
+                    <div class="divLienHe3_2_2">
+                        <div class="divLienHe3_2_2_1"><img src="Img/HoiDap/comments.png" alt=""></div>
+                        <div class="divLienHe3_2_2_2">
+                            <a href=""><span style="color:red">Trả lời </span></a>
+                            <a href=""><span> | 1 ngày trước</span></a>
+                        </div>
+                    </div>
+                    <div class="divLienHe3_2_3">
+                        <div class="divLienHe3_2_3_1"><img src="Img/HoiDap/7.png" alt=""></div>
+                        <div class="divLienHe3_2_3_2">
+                            <span style="font-weight: 600;font-size: 24px;">7-Phone Shop</span><br><br>
+                            <span>Dạ với tầm giá 2 triệu mình có thể tham khảo VSMART STAR 4 3GB 32GB ĐEN giá thời điểm
+                                hiện tại
+                                2.090.000 còn hàng ở khu vực Đà Nẵng ạ. Không biết mình tiện đến cửa hàng thời gian nào
+                                để em giữ hàng
+                                và giữ giá sản phẩm cho mình trong vòng 24h cho mình tiện đi lại ạ.
+                                <br> Mong nhận được phản hồi từ chị ạ.</span>
+                        </div>
+                        <div class="divLienHe3_2_2" style="margin-left: 50px;">
+                            <div class="divLienHe3_2_2_1"><img src="Img/HoiDap/comments.png" alt=""></div>
+                            <div class="divLienHe3_2_2_2">
+                                <a href=""><span style="color:red">Trả lời </span></a>
+                                <a href=""><span> | 1 ngày trước</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="divLienHe2_area">
+                <textarea name="" id=""
+                    placeholder="Mời quý khách để lại câu hỏi, 7-Phone sẽ trả lời sớm nhất có thể 24/7"></textarea>
+            </div>
+            <div id="divLienHe2_2">
+                <div id="divLienHe2_2_1">Chat với shop</div>
+                <div id="divLienHe2_2_2">Bình luận</div>
+            </div>
+        </div>
+        <div id="divSuaChua1" style="margin-bottom: 30px;">
+            <div id="divSuaChua1_1"></div>
+            <div id="divSuaChua1_2"><span>Lời cảm ơn </span></div>
+            <div id="divSuaChua1_1"></div>
+        </div>
+        <div class="divLienHe4">
+            <span style="font-size: 26px;">&emsp;&emsp;&emsp;&emsp;&emsp;
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Lời cảm ơn 7-Phone</span><br><br>
+            <span>Kính gửi: Quý khách hàng, quý đối tác, tất cả mọi người đã yêu quý và ủng hộ 7-phone</span><br><br>
+            <span>Lời đầu tiên, thay mặt Ban lãnh đạo cùng toàn bộ CBCNV công ty TNHH Điện tử 7-Phone, xin gửi tới Quý
+                khách hàng,
+                Quý đối tác lời cảm ơn chân thành và sâu sắc nhất. Xin tri ân lòng tin và sự ủng hộ, quan tâm, hợp tác,
+                đồng hành,
+                gắn bó và tin tưởng sử dụng sản phẩm của shop 7-Phone trong suốt thời gian vừa qua.</span><br><br>
+            <span>Cùng với xu thế phát triển chung của lĩnh vực điện tử – truyền thông, công ty chúng tôi không ngừng
+                đổi mới,
+                nâng cao chất lượng sản phẩm, phấn đấu cung cấp cho Quý khách hàng những sản phẩm tốt nhất, chất lượng
+                nhất.</span><br><br>
+            <span>Sự yêu mến và niềm tin của Quý khách hàng, Quý đối tác là niềm tự hào và thành công lớn nhất của chúng
+                tôi trong
+                quá trình phát triển. Để đền đáp lại tấm thiện tình này, chúng tôi sẽ không ngừng nâng cao chất lượng,
+                đa dạng hóa
+                sản phẩm nhằm đáp ứng tốt hơn nhu cầu của khách hàng và quý đối tác.</span><br><br>
+            <span>Trong thời gian tới, chúng tôi cam kết sẽ tiếp tục nâng cao chất lượng dịch vụ và sản phẩm để đáp ứng
+                yêu cầu
+                ngày càng cao của Quý khách hàng và Quý đối tác. Chúng tôi mong muốn tiếp tục nhận được sự quan tâm, ủng
+                hộ nhiệt
+                tình và tích cực của Quý khách hàng, Quý đối tác để có thể cùng nhau phát triển bền lâu và vững
+                mạnh.</span><br><br>
+            <span>Một lần nữa 7-Phone xin gửi lời cảm ơn chân thành và sự tri ân sâu sắc tới Quý khách hàng của công ty.
+                <br> Kính chúc Quý khách hàng, Quý đối tác sức khỏe, hạnh phúc và thành công.</span><br><br>
+            <span>Kính thư !!!</span><br><br>
+        </div>
+        <div class="divLienHe5">
+            <img src="Img/HoiDap/thanks.png" alt="">
+        </div>
+    </div>
+    <div id="divDTDD">
+        <div id="divThuHoi0">
+            <span>ĐIỆN THOẠI DI ĐỘNG 7-PHONE</span>
+        </div>
+        <div id="divDTDD1">
+            <div class="divDTDD1_" id="iPhone">
+                <div class="divDTDD1_icon">
+                    <img src="Img/DTDD/iPhone.png" alt="">
+                </div>
+                <span>iPhone</span>
+            </div>
+            <div class="divDTDD1_" id="Samsung">
+                <div class="divDTDD1_icon">
+                    <img src="Img/DTDD/samsung.png" alt="">
+                </div>
+                <span>Samsung</span>
+            </div>
+            <div class="divDTDD1_" id="OPPO">
+                <div class="divDTDD1_icon">
+                    <img src="Img/DTDD/oppo.png" alt="">
+                </div>
+                <span>OPPO</span>
+            </div>
+            <div class="divDTDD1_" id="Vsmart">
+                <div class="divDTDD1_icon">
+                    <img src="Img/DTDD/vsmart.png" alt="">
+                </div>
+                <span>Vsmart</span>
+            </div>
+            <div class="divDTDD1_" id="Vivo">
+                <div class="divDTDD1_icon">
+                    <img src="Img/DTDD/vivo.png" alt="">
+                </div>
+                <span>Vivo</span>
+            </div>
+            <div class="divDTDD1_" id="Xiaomi">
+                <div class="divDTDD1_icon">
+                    <img src="Img/DTDD/xiaomi.png" alt="">
+                </div>
+                <span>Xiaomi</span>
+            </div>
+            <div class="divDTDD1_" id="Realme">
+                <div class="divDTDD1_icon">
+                    <img src="Img/DTDD/realmi.png" alt="">
+                </div>
+                <span>Realme</span>
+            </div>
+            <div class="divDTDD1_" id="Khac">
+                <div class="divDTDD1_icon">
+                    <img src="Img/DTDD/khac.png" alt="">
+                </div>
+                <span>Khác</span>
+            </div>
+        </div>
+        <div id="divDTDDSale">
+            <img src="Img/DTDD/NenSale.png" alt="">
+        </div>
+        <div id="div10" style="margin-top: 50px;">
+            <div class="div10_">
+                <div class="divdt_1">
+                    <img src="Img/DienThoai/dienthoai1.png">
+                </div>
+                <div class="divdt_2">
+                    <span class="textdivdt_1">Smartphone OPPO Reno5 - Chính hãng</span>
+                    <span class="textdivdt_2">8,290,000<u>đ</u></span>
+                    <span class="textdivdt_3">8,990,000<u>đ</u></span>
+                </div>
+                <div class="divdt_3">
+                    <div class="divdt_3_1">KM</div>
+                    <div class="divdt_3_2">Tặng loa Bluetool JBL Clip3</div>
+                </div>
+                <div class="divdt_tragop">Trả góp 0%</div>
+                <div class="divdt_new">Mới</div>
+            </div>
+            <div class="div10_">
+                <div class="divdt_1">
+                    <img src="Img/DienThoai/dienthoai2.png" style="width: 200px;height:185px;margin-top: 35px;">
+                </div>
+                <div class="divdt_2">
+                    <span class="textdivdt_1">Điện thoại Realme C15 Bạc Hải Âu</span>
+                    <span class="textdivdt_2">3,390,000<u>đ</u></span>
+                    <span class="textdivdt_3">3,990,000<u>đ</u></span>
+                </div>
+                <div class="divdt_3">
+                    <div class="divdt_3_1">KM</div>
+                    <div class="divdt_3_2">Ưu đãi mua thêm cổng chuyển HYPERDRIVE HDMI/VGA 4K 2 IN 1</div>
+                </div>
+                <div class="divdt_tragop">Trả góp 0%</div>
+                <div class="divdt_new">Mới</div>
+            </div>
+            <div class="div10_">
+                <div class="divdt_1">
+                    <img src="Img/DienThoai/dienthoai3.png">
+                </div>
+                <div class="divdt_2">
+                    <span class="textdivdt_1">Apple iPhone 12 Pro - 128GB - VN/A</span>
+                    <span class="textdivdt_2">26,290,000<u>đ</u></span>
+                    <span class="textdivdt_3" style="font-family: 'Times New Roman'">30,990,000<u>đ</u></span>
+                </div>
+                <div class="divdt_3">
+                    <div class="divdt_3_1">KM</div>
+                    <div class="divdt_3_2">Sạc nhanh Apple iPhone 20W Type-C</div>
+                </div>
+                <div class="divdt_tragop">Trả góp 0%</div>
+                <div class="divdt_new">Mới</div>
+            </div>
+            <div class="div10_">
+                <div class="divdt_1">
+                    <img src="Img/DienThoai/dienthoai4.png">
+                </div>
+                <div class="divdt_2">
+                    <span class="textdivdt_1">Điện thoại Samsung Galaxy A52 -</br> Chính hãng</span>
+                    <span class="textdivdt_2">8,390,000<u>đ</u></span>
+                    <span class="textdivdt_3">9,290,000<u>đ</u></span>
+                </div>
+                <div class="divdt_3">
+                    <div class="divdt_3_1">KM</div>
+                    <div class="divdt_3_2">Sạc nhanh Innostyle Minigo Pro III Dual PD/QC3.0 20W</div>
+                </div>
+                <div class="divdt_tragop">Trả góp 0%</div>
+                <div class="divdt_new">Mới</div>
+            </div>
+            <div class="div10_">
+                <div class="divdt_1">
+                    <img src="Img/DienThoai/dienthoai5.png">
+                </div>
+                <div class="divdt_2">
+                    <span class="textdivdt_1">Điện thoại Samsung Galaxy A72 -</br> Chính hãng</span>
+                    <span class="textdivdt_2">9,290,000<u>đ</u></span>
+                    <span class="textdivdt_3">9,990,000<u>đ</u></span>
+                </div>
+                <div class="divdt_3">
+                    <div class="divdt_3_1">KM</div>
+                    <div class="divdt_3_2">Sạc Anker 1 cổng, công suất 20W PowerPort III Nano</div>
+                </div>
+                <div class="divdt_tragop">Trả góp 0%</div>
+                <div class="divdt_new">Mới</div>
+            </div>
+        </div>
+        <div id="div11">
+            <div class="div11_">
+                <div class="divdt_1">
+                    <img src="Img/DienThoai/dienthoai6.png">
+                </div>
+                <div class="divdt_2">
+                    <span class="textdivdt_1">Xiaomi Redmi Note 10 Pro 8GB/128GB -</br> Chính hãng</span>
+                    <span class="textdivdt_2">7,490,000<u>đ</u></span>
+                    <span class="textdivdt_3">8,990,000<u>đ</u></span>
+                </div>
+                <div class="divdt_3">
+                    <div class="divdt_3_1">KM</div>
+                    <div class="divdt_3_2">Sạc nhanh USB-C Power Delivery-A2633 chỉ với giá 320.000đ</div>
+                </div>
+                <div class="divdt_tragop">Trả góp 0%</div>
+                <div class="divdt_new">Mới</div>
+            </div>
+            <div class="div11_">
+                <div class="divdt_1">
+                    <img src="Img/DienThoai/dienthoai7.png">
+                </div>
+                <div class="divdt_2">
+                    <span class="textdivdt_1">Vsmart Live 4 - 6GB/64GB - Chính hãng</span>
+                    <span class="textdivdt_2">3,550,000<u>đ</u></span>
+                    <span class="textdivdt_3">4,990,000<u>đ</u></span>
+                </div>
+                <div class="divdt_3">
+                    <div class="divdt_3_1">KM</div>
+                    <div class="divdt_3_2">Tai nghe Apple AirPods 2 - Case sạc thường (MV7N2VN/A)</div>
+                </div>
+                <div class="divdt_tragop">Trả góp 0%</div>
+                <div class="divdt_new">Mới</div>
+            </div>
+            <div class="div11_">
+                <div class="divdt_1">
+                    <img src="Img/DienThoai/dienthoai8.png">
+                </div>
+                <div class="divdt_2">
+                    <span class="textdivdt_1">Vsmart Joy 4 - 3GB/64GB - Chính Hãng</span>
+                    <span class="textdivdt_2">2,890,000<u>đ</u></span>
+                    <span class="textdivdt_3">3,990,000<u>đ</u></span>
+                </div>
+                <div class="divdt_3">
+                    <div class="divdt_3_1">KM</div>
+                    <div class="divdt_3_2">Giảm 1.000.000đ khi thu cũ, đổi mới lên đời iPhone 12 Series</div>
+                </div>
+                <div class="divdt_tragop">Trả góp 0%</div>
+                <div class="divdt_new">Mới</div>
+            </div>
+            <div class="div11_">
+                <div class="divdt_1">
+                    <img src="Img/DienThoai/dienthoai9.png">
+                </div>
+                <div class="divdt_2">
+                    <span class="textdivdt_1">Điện thoại di động Nokia 2.4 -</br> Chính hãng</span>
+                    <span class="textdivdt_2">2,290,000<u>đ</u></span>
+                    <span class="textdivdt_3">2,990,000<u>đ</u></span>
+                </div>
+                <div class="divdt_3">
+                    <div class="divdt_3_1">KM</div>
+                    <div class="divdt_3_2">Tặng loa Bluetool JBL Clip3</div>
+                </div>
+                <div class="divdt_tragop">Trả góp 0%</div>
+                <div class="divdt_new">Mới</div>
+            </div>
+            <div class="div11_">
+                <div class="divdt_1">
+                    <img src="Img/DienThoai/dienthoai10.png">
+                </div>
+                <div class="divdt_2">
+                    <span class="textdivdt_1">Xiaomi Redmi Note 10 6GB/128GB -</br> Chính hãng</span>
+                    <span class="textdivdt_2">4,290,000<u>đ</u></span>
+                    <span class="textdivdt_3">5,690,000<u>đ</u></span>
+                </div>
+                <div class="divdt_3">
+                    <div class="divdt_3_1">KM</div>
+                    <div class="divdt_3_2">Giảm 1.000.000đ khi thu cũ, đổi mới lên đời iPhone 12 Series</div>
+                </div>
+                <div class="divdt_tragop">Trả góp 0%</div>
+                <div class="divdt_new">Mới</div>
+            </div>
+        </div>
+        <div id="div12">
+            <div class="div12_">
+                <div class="divdt_1">
+                    <img src="Img/DienThoai/dienthoai11.png">
+                </div>
+                <div class="divdt_2">
+                    <span class="textdivdt_1">Xiaomi Mi 10T Pro - 8GB/128GB - DGW</span>
+                    <span class="textdivdt_2">9,990,000<u>đ</u></span>
+                    <span class="textdivdt_3">10,990,000<u>đ</u></span>
+                </div>
+                <div class="divdt_3">
+                    <div class="divdt_3_1">KM</div>
+                    <div class="divdt_3_2">Sạc nhanh Innostyle Minigo Pro III Dual PD/QC3.0 20W</div>
+                </div>
+                <div class="divdt_tragop">Trả góp 0%</div>
+                <div class="divdt_new">Mới</div>
+            </div>
+            <div class="div12_">
+                <div class="divdt_1">
+                    <img src="Img/DienThoai/dienthoai12.png">
+                </div>
+                <div class="divdt_2">
+                    <span class="textdivdt_1">iPhone XR - 64GB - Chính hãng VN/A</span>
+                    <span class="textdivdt_2">9,290,000<u>đ</u></span>
+                    <span class="textdivdt_3">10,490,000<u>đ</u></span>
+                </div>
+                <div class="divdt_3">
+                    <div class="divdt_3_1">KM</div>
+                    <div class="divdt_3_2">Giảm 1.000.000đ khi thu cũ, đổi mới lên đời iPhone 12 Series</div>
+                </div>
+                <div class="divdt_tragop">Trả góp 0%</div>
+                <div class="divdt_new">Mới</div>
+            </div>
+            <div class="div12_">
+                <div class="divdt_1">
+                    <img src="Img/DienThoai/dienthoai13.png">
+                </div>
+                <div class="divdt_2">
+                    <span class="textdivdt_1">Vivo Y72 5G -</br> Chính hãng</span>
+                    <span class="textdivdt_2">7,290,000<u>đ</u></span>
+                    <span class="textdivdt_3">7,990,000<u>đ</u></span>
+                </div>
+                <div class="divdt_3">
+                    <div class="divdt_3_1">KM</div>
+                    <div class="divdt_3_2">Sạc nhanh Innostyle Minigo Pro III Dual PD/QC3.0 20W</div>
+                </div>
+                <div class="divdt_tragop">Trả góp 0%</div>
+                <div class="divdt_new">Mới</div>
+            </div>
+            <div class="div12_">
+                <div class="divdt_1">
+                    <img src="Img/DienThoai/dienthoai14.png">
+                </div>
+                <div class="divdt_2">
+                    <span class="textdivdt_1">Samsung Galaxy A12 - Chính hãng</span>
+                    <span class="textdivdt_2">3,590,000<u>đ</u></span>
+                    <span class="textdivdt_3">4,990,000<u>đ</u></span>
+                </div>
+                <div class="divdt_3">
+                    <div class="divdt_3_1">KM</div>
+                    <div class="divdt_3_2">Tặng loa Bluetool JBL Clip3</div>
+                </div>
+                <div class="divdt_tragop">Trả góp 0%</div>
+                <div class="divdt_new">Mới</div>
+            </div>
+            <div class="div12_">
+                <div class="divdt_1">
+                    <img src="Img/DienThoai/dienthoai15.png">
+                </div>
+                <div class="divdt_2">
+                    <span class="textdivdt_1">Xiaomi Redmi Note 9S - 4GB/64GB - DGW</span>
+                    <span class="textdivdt_2">4,790,000<u>đ</u></span>
+                    <span class="textdivdt_3">4,990,000<u>đ</u></span>
+                </div>
+                <div class="divdt_3">
+                    <div class="divdt_3_1">KM</div>
+                    <div class="divdt_3_2">Ưu đãi mua thêm cổng chuyển HYPERDRIVE HDMI/VGA 4K 2 IN 1</div>
+                </div>
+                <div class="divdt_tragop">Trả góp 0%</div>
+                <div class="divdt_new">Mới</div>
+            </div>
+        </div>
+
+        <div id="chu"><img src="Img/DTDD/chuiPhone.png" alt=""></div>
+        <div id="div11" style="margin-top: -90px;height: 470px;">
+            <div class="div11_">
+                <div class="divdt_1">
+                    <img src="Img/DienThoai/dienthoai6.png">
+                </div>
+                <div class="divdt_2">
+                    <span class="textdivdt_1">Xiaomi Redmi Note 10 Pro 8GB/128GB -</br> Chính hãng</span>
+                    <span class="textdivdt_2">7,490,000<u>đ</u></span>
+                    <span class="textdivdt_3">8,990,000<u>đ</u></span>
+                </div>
+                <div class="divdt_3">
+                    <div class="divdt_3_1">KM</div>
+                    <div class="divdt_3_2">Sạc nhanh USB-C Power Delivery-A2633 chỉ với giá 320.000đ</div>
+                </div>
+                <div class="divdt_tragop">Trả góp 0%</div>
+                <div class="divdt_new">Mới</div>
+            </div>
+            <div class="div11_">
+                <div class="divdt_1">
+                    <img src="Img/DienThoai/dienthoai7.png">
+                </div>
+                <div class="divdt_2">
+                    <span class="textdivdt_1">Vsmart Live 4 - 6GB/64GB - Chính hãng</span>
+                    <span class="textdivdt_2">3,550,000<u>đ</u></span>
+                    <span class="textdivdt_3">4,990,000<u>đ</u></span>
+                </div>
+                <div class="divdt_3">
+                    <div class="divdt_3_1">KM</div>
+                    <div class="divdt_3_2">Tai nghe Apple AirPods 2 - Case sạc thường (MV7N2VN/A)</div>
+                </div>
+                <div class="divdt_tragop">Trả góp 0%</div>
+                <div class="divdt_new">Mới</div>
+            </div>
+            <div class="div11_">
+                <div class="divdt_1">
+                    <img src="Img/DienThoai/dienthoai8.png">
+                </div>
+                <div class="divdt_2">
+                    <span class="textdivdt_1">Vsmart Joy 4 - 3GB/64GB - Chính Hãng</span>
+                    <span class="textdivdt_2">2,890,000<u>đ</u></span>
+                    <span class="textdivdt_3">3,990,000<u>đ</u></span>
+                </div>
+                <div class="divdt_3">
+                    <div class="divdt_3_1">KM</div>
+                    <div class="divdt_3_2">Giảm 1.000.000đ khi thu cũ, đổi mới lên đời iPhone 12 Series</div>
+                </div>
+                <div class="divdt_tragop">Trả góp 0%</div>
+                <div class="divdt_new">Mới</div>
+            </div>
+            <div class="div11_">
+                <div class="divdt_1">
+                    <img src="Img/DienThoai/dienthoai9.png">
+                </div>
+                <div class="divdt_2">
+                    <span class="textdivdt_1">Điện thoại di động Nokia 2.4 -</br> Chính hãng</span>
+                    <span class="textdivdt_2">2,290,000<u>đ</u></span>
+                    <span class="textdivdt_3">2,990,000<u>đ</u></span>
+                </div>
+                <div class="divdt_3">
+                    <div class="divdt_3_1">KM</div>
+                    <div class="divdt_3_2">Tặng loa Bluetool JBL Clip3</div>
+                </div>
+                <div class="divdt_tragop">Trả góp 0%</div>
+                <div class="divdt_new">Mới</div>
+            </div>
+            <div class="div11_">
+                <div class="divdt_1">
+                    <img src="Img/DienThoai/dienthoai10.png">
+                </div>
+                <div class="divdt_2">
+                    <span class="textdivdt_1">Xiaomi Redmi Note 10 6GB/128GB -</br> Chính hãng</span>
+                    <span class="textdivdt_2">4,290,000<u>đ</u></span>
+                    <span class="textdivdt_3">5,690,000<u>đ</u></span>
+                </div>
+                <div class="divdt_3">
+                    <div class="divdt_3_1">KM</div>
+                    <div class="divdt_3_2">Giảm 1.000.000đ khi thu cũ, đổi mới lên đời iPhone 12 Series</div>
+                </div>
+                <div class="divdt_tragop">Trả góp 0%</div>
+                <div class="divdt_new">Mới</div>
+            </div>
+            <div class="xemThem">XEM THÊM</div>
+        </div>
+        <div id="chu"><img src="Img/DTDD/chuSamsung.png" alt=""></div>
+        <div id="div11" style="margin-top: -90px;height: 470px;">
+            <div class="div11_">
+                <div class="divdt_1">
+                    <img src="Img/DienThoai/dienthoai6.png">
+                </div>
+                <div class="divdt_2">
+                    <span class="textdivdt_1">Xiaomi Redmi Note 10 Pro 8GB/128GB -</br> Chính hãng</span>
+                    <span class="textdivdt_2">7,490,000<u>đ</u></span>
+                    <span class="textdivdt_3">8,990,000<u>đ</u></span>
+                </div>
+                <div class="divdt_3">
+                    <div class="divdt_3_1">KM</div>
+                    <div class="divdt_3_2">Sạc nhanh USB-C Power Delivery-A2633 chỉ với giá 320.000đ</div>
+                </div>
+                <div class="divdt_tragop">Trả góp 0%</div>
+                <div class="divdt_new">Mới</div>
+            </div>
+            <div class="div11_">
+                <div class="divdt_1">
+                    <img src="Img/DienThoai/dienthoai7.png">
+                </div>
+                <div class="divdt_2">
+                    <span class="textdivdt_1">Vsmart Live 4 - 6GB/64GB - Chính hãng</span>
+                    <span class="textdivdt_2">3,550,000<u>đ</u></span>
+                    <span class="textdivdt_3">4,990,000<u>đ</u></span>
+                </div>
+                <div class="divdt_3">
+                    <div class="divdt_3_1">KM</div>
+                    <div class="divdt_3_2">Tai nghe Apple AirPods 2 - Case sạc thường (MV7N2VN/A)</div>
+                </div>
+                <div class="divdt_tragop">Trả góp 0%</div>
+                <div class="divdt_new">Mới</div>
+            </div>
+            <div class="div11_">
+                <div class="divdt_1">
+                    <img src="Img/DienThoai/dienthoai8.png">
+                </div>
+                <div class="divdt_2">
+                    <span class="textdivdt_1">Vsmart Joy 4 - 3GB/64GB - Chính Hãng</span>
+                    <span class="textdivdt_2">2,890,000<u>đ</u></span>
+                    <span class="textdivdt_3">3,990,000<u>đ</u></span>
+                </div>
+                <div class="divdt_3">
+                    <div class="divdt_3_1">KM</div>
+                    <div class="divdt_3_2">Giảm 1.000.000đ khi thu cũ, đổi mới lên đời iPhone 12 Series</div>
+                </div>
+                <div class="divdt_tragop">Trả góp 0%</div>
+                <div class="divdt_new">Mới</div>
+            </div>
+            <div class="div11_">
+                <div class="divdt_1">
+                    <img src="Img/DienThoai/dienthoai9.png">
+                </div>
+                <div class="divdt_2">
+                    <span class="textdivdt_1">Điện thoại di động Nokia 2.4 -</br> Chính hãng</span>
+                    <span class="textdivdt_2">2,290,000<u>đ</u></span>
+                    <span class="textdivdt_3">2,990,000<u>đ</u></span>
+                </div>
+                <div class="divdt_3">
+                    <div class="divdt_3_1">KM</div>
+                    <div class="divdt_3_2">Tặng loa Bluetool JBL Clip3</div>
+                </div>
+                <div class="divdt_tragop">Trả góp 0%</div>
+                <div class="divdt_new">Mới</div>
+            </div>
+            <div class="div11_">
+                <div class="divdt_1">
+                    <img src="Img/DienThoai/dienthoai10.png">
+                </div>
+                <div class="divdt_2">
+                    <span class="textdivdt_1">Xiaomi Redmi Note 10 6GB/128GB -</br> Chính hãng</span>
+                    <span class="textdivdt_2">4,290,000<u>đ</u></span>
+                    <span class="textdivdt_3">5,690,000<u>đ</u></span>
+                </div>
+                <div class="divdt_3">
+                    <div class="divdt_3_1">KM</div>
+                    <div class="divdt_3_2">Giảm 1.000.000đ khi thu cũ, đổi mới lên đời iPhone 12 Series</div>
+                </div>
+                <div class="divdt_tragop">Trả góp 0%</div>
+                <div class="divdt_new">Mới</div>
+            </div>
+            <div class="xemThem">XEM THÊM</div>
+        </div>
+        <div id="chu"><img src="Img/DTDD/chuOPPO.png" alt=""></div>
+        <div id="div11" style="margin-top: -90px;">
+            <div class="div11_">
+                <div class="divdt_1">
+                    <img src="Img/DienThoai/dienthoai6.png">
+                </div>
+                <div class="divdt_2">
+                    <span class="textdivdt_1">Xiaomi Redmi Note 10 Pro 8GB/128GB -</br> Chính hãng</span>
+                    <span class="textdivdt_2">7,490,000<u>đ</u></span>
+                    <span class="textdivdt_3">8,990,000<u>đ</u></span>
+                </div>
+                <div class="divdt_3">
+                    <div class="divdt_3_1">KM</div>
+                    <div class="divdt_3_2">Sạc nhanh USB-C Power Delivery-A2633 chỉ với giá 320.000đ</div>
+                </div>
+                <div class="divdt_tragop">Trả góp 0%</div>
+                <div class="divdt_new">Mới</div>
+            </div>
+            <div class="div11_">
+                <div class="divdt_1">
+                    <img src="Img/DienThoai/dienthoai7.png">
+                </div>
+                <div class="divdt_2">
+                    <span class="textdivdt_1">Vsmart Live 4 - 6GB/64GB - Chính hãng</span>
+                    <span class="textdivdt_2">3,550,000<u>đ</u></span>
+                    <span class="textdivdt_3">4,990,000<u>đ</u></span>
+                </div>
+                <div class="divdt_3">
+                    <div class="divdt_3_1">KM</div>
+                    <div class="divdt_3_2">Tai nghe Apple AirPods 2 - Case sạc thường (MV7N2VN/A)</div>
+                </div>
+                <div class="divdt_tragop">Trả góp 0%</div>
+                <div class="divdt_new">Mới</div>
+            </div>
+            <div class="div11_">
+                <div class="divdt_1">
+                    <img src="Img/DienThoai/dienthoai8.png">
+                </div>
+                <div class="divdt_2">
+                    <span class="textdivdt_1">Vsmart Joy 4 - 3GB/64GB - Chính Hãng</span>
+                    <span class="textdivdt_2">2,890,000<u>đ</u></span>
+                    <span class="textdivdt_3">3,990,000<u>đ</u></span>
+                </div>
+                <div class="divdt_3">
+                    <div class="divdt_3_1">KM</div>
+                    <div class="divdt_3_2">Giảm 1.000.000đ khi thu cũ, đổi mới lên đời iPhone 12 Series</div>
+                </div>
+                <div class="divdt_tragop">Trả góp 0%</div>
+                <div class="divdt_new">Mới</div>
+            </div>
+            <div class="div11_">
+                <div class="divdt_1">
+                    <img src="Img/DienThoai/dienthoai9.png">
+                </div>
+                <div class="divdt_2">
+                    <span class="textdivdt_1">Điện thoại di động Nokia 2.4 -</br> Chính hãng</span>
+                    <span class="textdivdt_2">2,290,000<u>đ</u></span>
+                    <span class="textdivdt_3">2,990,000<u>đ</u></span>
+                </div>
+                <div class="divdt_3">
+                    <div class="divdt_3_1">KM</div>
+                    <div class="divdt_3_2">Tặng loa Bluetool JBL Clip3</div>
+                </div>
+                <div class="divdt_tragop">Trả góp 0%</div>
+                <div class="divdt_new">Mới</div>
+            </div>
+        </div>
+        <div id="chu"><img src="Img/DTDD/chuVsmart.png" alt=""></div>
+        <div id="div11" style="margin-top: -90px;height: 470px;">
+            <div class="div11_">
+                <div class="divdt_1">
+                    <img src="Img/DienThoai/dienthoai6.png">
+                </div>
+                <div class="divdt_2">
+                    <span class="textdivdt_1">Xiaomi Redmi Note 10 Pro 8GB/128GB -</br> Chính hãng</span>
+                    <span class="textdivdt_2">7,490,000<u>đ</u></span>
+                    <span class="textdivdt_3">8,990,000<u>đ</u></span>
+                </div>
+                <div class="divdt_3">
+                    <div class="divdt_3_1">KM</div>
+                    <div class="divdt_3_2">Sạc nhanh USB-C Power Delivery-A2633 chỉ với giá 320.000đ</div>
+                </div>
+                <div class="divdt_tragop">Trả góp 0%</div>
+                <div class="divdt_new">Mới</div>
+            </div>
+            <div class="div11_">
+                <div class="divdt_1">
+                    <img src="Img/DienThoai/dienthoai7.png">
+                </div>
+                <div class="divdt_2">
+                    <span class="textdivdt_1">Vsmart Live 4 - 6GB/64GB - Chính hãng</span>
+                    <span class="textdivdt_2">3,550,000<u>đ</u></span>
+                    <span class="textdivdt_3">4,990,000<u>đ</u></span>
+                </div>
+                <div class="divdt_3">
+                    <div class="divdt_3_1">KM</div>
+                    <div class="divdt_3_2">Tai nghe Apple AirPods 2 - Case sạc thường (MV7N2VN/A)</div>
+                </div>
+                <div class="divdt_tragop">Trả góp 0%</div>
+                <div class="divdt_new">Mới</div>
+            </div>
+            <div class="div11_">
+                <div class="divdt_1">
+                    <img src="Img/DienThoai/dienthoai8.png">
+                </div>
+                <div class="divdt_2">
+                    <span class="textdivdt_1">Vsmart Joy 4 - 3GB/64GB - Chính Hãng</span>
+                    <span class="textdivdt_2">2,890,000<u>đ</u></span>
+                    <span class="textdivdt_3">3,990,000<u>đ</u></span>
+                </div>
+                <div class="divdt_3">
+                    <div class="divdt_3_1">KM</div>
+                    <div class="divdt_3_2">Giảm 1.000.000đ khi thu cũ, đổi mới lên đời iPhone 12 Series</div>
+                </div>
+                <div class="divdt_tragop">Trả góp 0%</div>
+                <div class="divdt_new">Mới</div>
+            </div>
+            <div class="div11_">
+                <div class="divdt_1">
+                    <img src="Img/DienThoai/dienthoai9.png">
+                </div>
+                <div class="divdt_2">
+                    <span class="textdivdt_1">Điện thoại di động Nokia 2.4 -</br> Chính hãng</span>
+                    <span class="textdivdt_2">2,290,000<u>đ</u></span>
+                    <span class="textdivdt_3">2,990,000<u>đ</u></span>
+                </div>
+                <div class="divdt_3">
+                    <div class="divdt_3_1">KM</div>
+                    <div class="divdt_3_2">Tặng loa Bluetool JBL Clip3</div>
+                </div>
+                <div class="divdt_tragop">Trả góp 0%</div>
+                <div class="divdt_new">Mới</div>
+            </div>
+            <div class="div11_">
+                <div class="divdt_1">
+                    <img src="Img/DienThoai/dienthoai10.png">
+                </div>
+                <div class="divdt_2">
+                    <span class="textdivdt_1">Xiaomi Redmi Note 10 6GB/128GB -</br> Chính hãng</span>
+                    <span class="textdivdt_2">4,290,000<u>đ</u></span>
+                    <span class="textdivdt_3">5,690,000<u>đ</u></span>
+                </div>
+                <div class="divdt_3">
+                    <div class="divdt_3_1">KM</div>
+                    <div class="divdt_3_2">Giảm 1.000.000đ khi thu cũ, đổi mới lên đời iPhone 12 Series</div>
+                </div>
+                <div class="divdt_tragop">Trả góp 0%</div>
+                <div class="divdt_new">Mới</div>
+            </div>
+            <div class="xemThem">XEM THÊM</div>
+        </div>
+        <div id="chu"><img src="Img/DTDD/chuVivo.png" alt=""></div>
+        <div id="div11" style="margin-top: -90px;height: 470px;">
+            <div class="div11_">
+                <div class="divdt_1">
+                    <img src="Img/DienThoai/dienthoai6.png">
+                </div>
+                <div class="divdt_2">
+                    <span class="textdivdt_1">Xiaomi Redmi Note 10 Pro 8GB/128GB -</br> Chính hãng</span>
+                    <span class="textdivdt_2">7,490,000<u>đ</u></span>
+                    <span class="textdivdt_3">8,990,000<u>đ</u></span>
+                </div>
+                <div class="divdt_3">
+                    <div class="divdt_3_1">KM</div>
+                    <div class="divdt_3_2">Sạc nhanh USB-C Power Delivery-A2633 chỉ với giá 320.000đ</div>
+                </div>
+                <div class="divdt_tragop">Trả góp 0%</div>
+                <div class="divdt_new">Mới</div>
+            </div>
+            <div class="div11_">
+                <div class="divdt_1">
+                    <img src="Img/DienThoai/dienthoai7.png">
+                </div>
+                <div class="divdt_2">
+                    <span class="textdivdt_1">Vsmart Live 4 - 6GB/64GB - Chính hãng</span>
+                    <span class="textdivdt_2">3,550,000<u>đ</u></span>
+                    <span class="textdivdt_3">4,990,000<u>đ</u></span>
+                </div>
+                <div class="divdt_3">
+                    <div class="divdt_3_1">KM</div>
+                    <div class="divdt_3_2">Tai nghe Apple AirPods 2 - Case sạc thường (MV7N2VN/A)</div>
+                </div>
+                <div class="divdt_tragop">Trả góp 0%</div>
+                <div class="divdt_new">Mới</div>
+            </div>
+            <div class="div11_">
+                <div class="divdt_1">
+                    <img src="Img/DienThoai/dienthoai8.png">
+                </div>
+                <div class="divdt_2">
+                    <span class="textdivdt_1">Vsmart Joy 4 - 3GB/64GB - Chính Hãng</span>
+                    <span class="textdivdt_2">2,890,000<u>đ</u></span>
+                    <span class="textdivdt_3">3,990,000<u>đ</u></span>
+                </div>
+                <div class="divdt_3">
+                    <div class="divdt_3_1">KM</div>
+                    <div class="divdt_3_2">Giảm 1.000.000đ khi thu cũ, đổi mới lên đời iPhone 12 Series</div>
+                </div>
+                <div class="divdt_tragop">Trả góp 0%</div>
+                <div class="divdt_new">Mới</div>
+            </div>
+            <div class="div11_">
+                <div class="divdt_1">
+                    <img src="Img/DienThoai/dienthoai9.png">
+                </div>
+                <div class="divdt_2">
+                    <span class="textdivdt_1">Điện thoại di động Nokia 2.4 -</br> Chính hãng</span>
+                    <span class="textdivdt_2">2,290,000<u>đ</u></span>
+                    <span class="textdivdt_3">2,990,000<u>đ</u></span>
+                </div>
+                <div class="divdt_3">
+                    <div class="divdt_3_1">KM</div>
+                    <div class="divdt_3_2">Tặng loa Bluetool JBL Clip3</div>
+                </div>
+                <div class="divdt_tragop">Trả góp 0%</div>
+                <div class="divdt_new">Mới</div>
+            </div>
+            <div class="div11_">
+                <div class="divdt_1">
+                    <img src="Img/DienThoai/dienthoai10.png">
+                </div>
+                <div class="divdt_2">
+                    <span class="textdivdt_1">Xiaomi Redmi Note 10 6GB/128GB -</br> Chính hãng</span>
+                    <span class="textdivdt_2">4,290,000<u>đ</u></span>
+                    <span class="textdivdt_3">5,690,000<u>đ</u></span>
+                </div>
+                <div class="divdt_3">
+                    <div class="divdt_3_1">KM</div>
+                    <div class="divdt_3_2">Giảm 1.000.000đ khi thu cũ, đổi mới lên đời iPhone 12 Series</div>
+                </div>
+                <div class="divdt_tragop">Trả góp 0%</div>
+                <div class="divdt_new">Mới</div>
+            </div>
+            <div class="xemThem">XEM THÊM</div>
+        </div>
+        <div id="chu"><img src="Img/DTDD/chuXiaomi.png" alt=""></div>
+        <div id="div11" style="margin-top: -90px;">
+            <div class="div11_">
+                <div class="divdt_1">
+                    <img src="Img/DienThoai/dienthoai6.png">
+                </div>
+                <div class="divdt_2">
+                    <span class="textdivdt_1">Xiaomi Redmi Note 10 Pro 8GB/128GB -</br> Chính hãng</span>
+                    <span class="textdivdt_2">7,490,000<u>đ</u></span>
+                    <span class="textdivdt_3">8,990,000<u>đ</u></span>
+                </div>
+                <div class="divdt_3">
+                    <div class="divdt_3_1">KM</div>
+                    <div class="divdt_3_2">Sạc nhanh USB-C Power Delivery-A2633 chỉ với giá 320.000đ</div>
+                </div>
+                <div class="divdt_tragop">Trả góp 0%</div>
+                <div class="divdt_new">Mới</div>
+            </div>
+            <div class="div11_">
+                <div class="divdt_1">
+                    <img src="Img/DienThoai/dienthoai7.png">
+                </div>
+                <div class="divdt_2">
+                    <span class="textdivdt_1">Vsmart Live 4 - 6GB/64GB - Chính hãng</span>
+                    <span class="textdivdt_2">3,550,000<u>đ</u></span>
+                    <span class="textdivdt_3">4,990,000<u>đ</u></span>
+                </div>
+                <div class="divdt_3">
+                    <div class="divdt_3_1">KM</div>
+                    <div class="divdt_3_2">Tai nghe Apple AirPods 2 - Case sạc thường (MV7N2VN/A)</div>
+                </div>
+                <div class="divdt_tragop">Trả góp 0%</div>
+                <div class="divdt_new">Mới</div>
+            </div>
+            <div class="div11_">
+                <div class="divdt_1">
+                    <img src="Img/DienThoai/dienthoai8.png">
+                </div>
+                <div class="divdt_2">
+                    <span class="textdivdt_1">Vsmart Joy 4 - 3GB/64GB - Chính Hãng</span>
+                    <span class="textdivdt_2">2,890,000<u>đ</u></span>
+                    <span class="textdivdt_3">3,990,000<u>đ</u></span>
+                </div>
+                <div class="divdt_3">
+                    <div class="divdt_3_1">KM</div>
+                    <div class="divdt_3_2">Giảm 1.000.000đ khi thu cũ, đổi mới lên đời iPhone 12 Series</div>
+                </div>
+                <div class="divdt_tragop">Trả góp 0%</div>
+                <div class="divdt_new">Mới</div>
+            </div>
+            <div class="div11_">
+                <div class="divdt_1">
+                    <img src="Img/DienThoai/dienthoai9.png">
+                </div>
+                <div class="divdt_2">
+                    <span class="textdivdt_1">Điện thoại di động Nokia 2.4 -</br> Chính hãng</span>
+                    <span class="textdivdt_2">2,290,000<u>đ</u></span>
+                    <span class="textdivdt_3">2,990,000<u>đ</u></span>
+                </div>
+                <div class="divdt_3">
+                    <div class="divdt_3_1">KM</div>
+                    <div class="divdt_3_2">Tặng loa Bluetool JBL Clip3</div>
+                </div>
+                <div class="divdt_tragop">Trả góp 0%</div>
+                <div class="divdt_new">Mới</div>
+            </div>
+        </div>
+        <div id="chu"><img src="Img/DTDD/chuRealme.png" alt=""></div>
+        <div id="div11" style="margin-top: -90px;">
+            <div class="div11_">
+                <div class="divdt_1">
+                    <img src="Img/DienThoai/dienthoai6.png">
+                </div>
+                <div class="divdt_2">
+                    <span class="textdivdt_1">Xiaomi Redmi Note 10 Pro 8GB/128GB -</br> Chính hãng</span>
+                    <span class="textdivdt_2">7,490,000<u>đ</u></span>
+                    <span class="textdivdt_3">8,990,000<u>đ</u></span>
+                </div>
+                <div class="divdt_3">
+                    <div class="divdt_3_1">KM</div>
+                    <div class="divdt_3_2">Sạc nhanh USB-C Power Delivery-A2633 chỉ với giá 320.000đ</div>
+                </div>
+                <div class="divdt_tragop">Trả góp 0%</div>
+                <div class="divdt_new">Mới</div>
+            </div>
+            <div class="div11_">
+                <div class="divdt_1">
+                    <img src="Img/DienThoai/dienthoai7.png">
+                </div>
+                <div class="divdt_2">
+                    <span class="textdivdt_1">Vsmart Live 4 - 6GB/64GB - Chính hãng</span>
+                    <span class="textdivdt_2">3,550,000<u>đ</u></span>
+                    <span class="textdivdt_3">4,990,000<u>đ</u></span>
+                </div>
+                <div class="divdt_3">
+                    <div class="divdt_3_1">KM</div>
+                    <div class="divdt_3_2">Tai nghe Apple AirPods 2 - Case sạc thường (MV7N2VN/A)</div>
+                </div>
+                <div class="divdt_tragop">Trả góp 0%</div>
+                <div class="divdt_new">Mới</div>
+            </div>
+            <div class="div11_">
+                <div class="divdt_1">
+                    <img src="Img/DienThoai/dienthoai8.png">
+                </div>
+                <div class="divdt_2">
+                    <span class="textdivdt_1">Vsmart Joy 4 - 3GB/64GB - Chính Hãng</span>
+                    <span class="textdivdt_2">2,890,000<u>đ</u></span>
+                    <span class="textdivdt_3">3,990,000<u>đ</u></span>
+                </div>
+                <div class="divdt_3">
+                    <div class="divdt_3_1">KM</div>
+                    <div class="divdt_3_2">Giảm 1.000.000đ khi thu cũ, đổi mới lên đời iPhone 12 Series</div>
+                </div>
+                <div class="divdt_tragop">Trả góp 0%</div>
+                <div class="divdt_new">Mới</div>
+            </div>
+            <div class="div11_">
+                <div class="divdt_1">
+                    <img src="Img/DienThoai/dienthoai9.png">
+                </div>
+                <div class="divdt_2">
+                    <span class="textdivdt_1">Điện thoại di động Nokia 2.4 -</br> Chính hãng</span>
+                    <span class="textdivdt_2">2,290,000<u>đ</u></span>
+                    <span class="textdivdt_3">2,990,000<u>đ</u></span>
+                </div>
+                <div class="divdt_3">
+                    <div class="divdt_3_1">KM</div>
+                    <div class="divdt_3_2">Tặng loa Bluetool JBL Clip3</div>
+                </div>
+                <div class="divdt_tragop">Trả góp 0%</div>
+                <div class="divdt_new">Mới</div>
+            </div>
+        </div>
+        <div id="chu"><img src="Img/DTDD/chuKhac.png" alt=""></div>
+        <div id="div11" style="margin-top: -90px;height: 470px;">
+            <div class="div11_">
+                <div class="divdt_1">
+                    <img src="Img/DienThoai/dienthoai6.png">
+                </div>
+                <div class="divdt_2">
+                    <span class="textdivdt_1">Xiaomi Redmi Note 10 Pro 8GB/128GB -</br> Chính hãng</span>
+                    <span class="textdivdt_2">7,490,000<u>đ</u></span>
+                    <span class="textdivdt_3">8,990,000<u>đ</u></span>
+                </div>
+                <div class="divdt_3">
+                    <div class="divdt_3_1">KM</div>
+                    <div class="divdt_3_2">Sạc nhanh USB-C Power Delivery-A2633 chỉ với giá 320.000đ</div>
+                </div>
+                <div class="divdt_tragop">Trả góp 0%</div>
+                <div class="divdt_new">Mới</div>
+            </div>
+            <div class="div11_">
+                <div class="divdt_1">
+                    <img src="Img/DienThoai/dienthoai7.png">
+                </div>
+                <div class="divdt_2">
+                    <span class="textdivdt_1">Vsmart Live 4 - 6GB/64GB - Chính hãng</span>
+                    <span class="textdivdt_2">3,550,000<u>đ</u></span>
+                    <span class="textdivdt_3">4,990,000<u>đ</u></span>
+                </div>
+                <div class="divdt_3">
+                    <div class="divdt_3_1">KM</div>
+                    <div class="divdt_3_2">Tai nghe Apple AirPods 2 - Case sạc thường (MV7N2VN/A)</div>
+                </div>
+                <div class="divdt_tragop">Trả góp 0%</div>
+                <div class="divdt_new">Mới</div>
+            </div>
+            <div class="div11_">
+                <div class="divdt_1">
+                    <img src="Img/DienThoai/dienthoai8.png">
+                </div>
+                <div class="divdt_2">
+                    <span class="textdivdt_1">Vsmart Joy 4 - 3GB/64GB - Chính Hãng</span>
+                    <span class="textdivdt_2">2,890,000<u>đ</u></span>
+                    <span class="textdivdt_3">3,990,000<u>đ</u></span>
+                </div>
+                <div class="divdt_3">
+                    <div class="divdt_3_1">KM</div>
+                    <div class="divdt_3_2">Giảm 1.000.000đ khi thu cũ, đổi mới lên đời iPhone 12 Series</div>
+                </div>
+                <div class="divdt_tragop">Trả góp 0%</div>
+                <div class="divdt_new">Mới</div>
+            </div>
+            <div class="div11_">
+                <div class="divdt_1">
+                    <img src="Img/DienThoai/dienthoai9.png">
+                </div>
+                <div class="divdt_2">
+                    <span class="textdivdt_1">Điện thoại di động Nokia 2.4 -</br> Chính hãng</span>
+                    <span class="textdivdt_2">2,290,000<u>đ</u></span>
+                    <span class="textdivdt_3">2,990,000<u>đ</u></span>
+                </div>
+                <div class="divdt_3">
+                    <div class="divdt_3_1">KM</div>
+                    <div class="divdt_3_2">Tặng loa Bluetool JBL Clip3</div>
+                </div>
+                <div class="divdt_tragop">Trả góp 0%</div>
+                <div class="divdt_new">Mới</div>
+            </div>
+            <div class="div11_">
+                <div class="divdt_1">
+                    <img src="Img/DienThoai/dienthoai10.png">
+                </div>
+                <div class="divdt_2">
+                    <span class="textdivdt_1">Xiaomi Redmi Note 10 6GB/128GB -</br> Chính hãng</span>
+                    <span class="textdivdt_2">4,290,000<u>đ</u></span>
+                    <span class="textdivdt_3">5,690,000<u>đ</u></span>
+                </div>
+                <div class="divdt_3">
+                    <div class="divdt_3_1">KM</div>
+                    <div class="divdt_3_2">Giảm 1.000.000đ khi thu cũ, đổi mới lên đời iPhone 12 Series</div>
+                </div>
+                <div class="divdt_tragop">Trả góp 0%</div>
+                <div class="divdt_new">Mới</div>
+            </div>
+            <div class="xemThem">XEM THÊM</div>
+        </div>
+    </div>
+    <div id="divPhuKien">
+        <div id="divThuHoi0">
+            <span>PHỤ KIỆN THÔNG MINH 7-PHONE</span>
+        </div>
+        <div id="div15">
+            <div class="div15_a">
+                <div class="div15_" id="idphukien1">
+                    <div class="div15_1" id="idphukien1_1">
+                        <img src="Img/PhuKien/phukien1.png" style="margin-top: 30px;">
+                    </div>
+                    <div class="div15_2" id="idphukien1_2">Thẻ nhớ - USB</div>
+                </div>
+                <div class="div15_" id="idphukien2">
+                    <div class="div15_1" id="idphukien2_1">
+                        <img src="Img/PhuKien/phukien2.png" style="margin-top: 30px;">
+                    </div>
+                    <div class="div15_2" id="idphukien2_2">Tai nghe</div>
+                </div>
+                <div class="div15_" id="idphukien3">
+                    <div class="div15_1" id="idphukien3_1">
+                        <img src="Img/PhuKien/phukien3.png" style="margin-top: 30px;">
+                    </div>
+                    <div class="div15_2" id="idphukien3_2">Sạc dự phòng</div>
+                </div>
+                <div class="div15_" id="idphukien4">
+                    <div class="div15_1" id="idphukien4_1">
+                        <img src="Img/PhuKien/phukien4.png" style="margin-top: 30px;">
+                    </div>
+                    <div class="div15_2" id="idphukien4_2">Quạt để bàn</div>
+                </div>
+                <div class="div15_" id="idphukien5">
+                    <div class="div15_1" id="idphukien5_1">
+                        <img src="Img/PhuKien/phukien5.png" style="margin-top: 30px;">
+                    </div>
+                    <div class="div15_2" id="idphukien5_2">Loa</div>
+                </div>
+                <div class="div15_" style="margin-right: 0px;" id="idphukien6">
+                    <div class="div15_1" id="idphukien6_1">
+                        <img src="Img/PhuKien/phukien6.png" style="margin-top: 30px;">
+                    </div>
+                    <div class="div15_2" id="idphukien6_2">Củ sạc-Dây cáp</div>
+                </div>
+            </div>
+            <div class="div15_b">
+                <div class="div15_" id="idphukien7">
+                    <div class="div15_1" id="idphukien7_1">
+                        <img src="Img/PhuKien/phukien7.png" style="margin-top: 30px;">
+                    </div>
+                    <div class="div15_2" id="idphukien7_2">Camera an ninh</div>
+                </div>
+                <div class="div15_" id="idphukien8">
+                    <div class="div15_1" id="idphukien8_1">
+                        <img src="Img/PhuKien/phukien8.png" style="margin-top: 30px;">
+                    </div>
+                    <div class="div15_2" id="idphukien8_2">Bộ phát wifi</div>
+                </div>
+                <div class="div15_" id="idphukien9">
+                    <div class="div15_1" id="idphukien9_1">
+                        <img src="Img/PhuKien/phukien9.png" style="margin-top: 30px;">
+                    </div>
+                    <div class="div15_2" id="idphukien9_2">Apple</div>
+                </div>
+                <div class="div15_" id="idphukien10">
+                    <div class="div15_1" id="idphukien10_1">
+                        <img src="Img/PhuKien/phukien10.png" style="margin-top: 30px;">
+                    </div>
+                    <div class="div15_2" id="idphukien10_2">Bao da-ốp lưng</div>
+                </div>
+                <div class="div15_" id="idphukien11">
+                    <div class="div15_1" id="idphukien11_1">
+                        <img src="Img/PhuKien/phukien11.png" style="margin-top: 30px;">
+                    </div>
+                    <div class="div15_2" id="idphukien11_2">Lọc không khí</div>
+                </div>
+                <div class="div15_" style="margin-right: 0px;" id="idphukien12">
+                    <div class="div15_1" id="idphukien12_1">
+                        <img src="Img/PhuKien/phukien12.png" style="margin-top: 30px;">
+                    </div>
+                    <div class="div15_2" id="idphukien12_2">Robot hút bụi</div>
+                </div>
+            </div>
+        </div>
+        <div id="div7" class="test">THẺ NHỚ - USB</div>
+        <div id="div5">
+            <div class="div5_1">
+                <img src="Img/left.png" alt="">
+            </div>
+            <div class="div5_2">
+                <div class="div5_2_1">
+                    <img src="Img/PhuKien/thenho1.png" style="margin-top: 10px;">
+                </div>
+                <div class="div5_2_2">Thẻ nhớ MicroSD Sandisk Extreme Pro 128GB</div>
+                <div class="div5_2_3">
+                    <span class="textdiv5_1">750,000 <u>đ</u></span>
+                    <span class="textdiv5_2"> 900,000 <u>đ</u></span>
+                </div>
+            </div>
+            <div class="div5_2">
+                <div class="div5_2_1">
+                    <img src="Img/PhuKien/thenho2.png" style="margin-top: 10px;">
+                </div>
+                <div class="div5_2_2">Thẻ nhớ Thẻ nhớ Sandisk Ultra 128 GB - Chính hãng</div>
+                <div class="div5_2_3">
+                    <span class="textdiv5_1">350,000 <u>đ</u></span>
+                    <span class="textdiv5_2"> 500,000 <u>đ</u></span>
+                </div>
+            </div>
+            <div class="div5_2">
+                <div class="div5_2_1">
+                    <img src="Img/PhuKien/thenho3.png" style="margin-top: 10px;">
+                </div>
+                <div class="div5_2_2">USB OTG SanDisk Ultra 16GB Dual Drive m3.0 - Chính hãng</div>
+                <div class="div5_2_3">
+                    <span class="textdiv5_1">140,000 <u>đ</u></span>
+                    <span class="textdiv5_2"> 200,000 <u>đ</u></span>
+                </div>
+            </div>
+            <div class="div5_2">
+                <div class="div5_2_1">
+                    <img src="Img/PhuKien/thenho4.png" style="margin-top: 10px;">
+                </div>
+                <div class="div5_2_2">Thẻ nhớ Kingston 32GB Class 10 - Chính hãng</div>
+                <div class="div5_2_3">
+                    <span class="textdiv5_1">170,000<u>đ</u></span>
+                    <span class="textdiv5_2">200,000<u>đ</u></span>
+                </div>
+            </div>
+            <div class="div5_1">
+                <img src="Img/back.png" alt="">
+            </div>
+        </div>
+        <div id="div7" class="test">TAI NGHE</div>
+        <div id="div5">
+            <div class="div5_1">
+                <img src="Img/left.png" alt="">
+            </div>
+            <div class="div5_2">
+                <div class="div5_2_1">
+                    <img src="Img/PhuKien/tainghe1.png" style="margin-top: 10px;">
+                </div>
+                <div class="div5_2_2">Tai nghe True Wireless Sony WF-XB700 - Chính hãng</div>
+                <div class="div5_2_3">
+                    <span class="textdiv5_1">2,800,000 <u>đ</u></span>
+                    <span class="textdiv5_2">2,900,000 <u>đ</u></span>
+                </div>
+            </div>
+            <div class="div5_2">
+                <div class="div5_2_1">
+                    <img src="Img/PhuKien/tainghe2.png" style="margin-top: 10px;">
+                </div>
+                <div class="div5_2_2">Tai Nghe Bluetooth Motorola Pulse Escape 800 ANC </div>
+                <div class="div5_2_3">
+                    <span class="textdiv5_1">1,290,000 <u>đ</u></span>
+                    <span class="textdiv5_2">1,800,000 <u>đ</u></span>
+                </div>
+            </div>
+            <div class="div5_2">
+                <div class="div5_2_1">
+                    <img src="Img/PhuKien/tainghe3.png" style="margin-top: 10px;">
+                </div>
+                <div class="div5_2_2">Tai nghe Sony WF-SP800N - Chinh hãng</div>
+                <div class="div5_2_3">
+                    <span class="textdiv5_1">4,140,000 <u>đ</u></span>
+                    <span class="textdiv5_2">4,500,000 <u>đ</u></span>
+                </div>
+            </div>
+            <div class="div5_2">
+                <div class="div5_2_1">
+                    <img src="Img/PhuKien/tainghe4.png" style="margin-top: 10px;">
+                </div>
+                <div class="div5_2_2">Xiaomi Mi Basic - Chính hãng</div>
+                <div class="div5_2_3">
+                    <span class="textdiv5_1">170,000<u>đ</u></span>
+                    <span class="textdiv5_2">200,000<u>đ</u></span>
+                </div>
+            </div>
+            <div class="div5_1">
+                <img src="Img/back.png" alt="">
+            </div>
+        </div>
+        <div id="div7" class="test">SẠC DỰ PHÒNG</div>
+        <div id="div5">
+            <div class="div5_1">
+                <img src="Img/left.png" alt="">
+            </div>
+            <div class="div5_2">
+                <div class="div5_2_1">
+                    <img src="Img/PhuKien/pin1.png" style="margin-top: 10px;">
+                </div>
+                <div class="div5_2_2">Pin dự phòng Easy Power 5C 10000mAh (Type-C, 2A Smart)</div>
+                <div class="div5_2_3">
+                    <span class="textdiv5_1">280,000 <u>đ</u></span>
+                    <span class="textdiv5_2">390,000 <u>đ</u></span>
+                </div>
+            </div>
+            <div class="div5_2">
+                <div class="div5_2_1">
+                    <img src="Img/PhuKien/pin2.png" style="margin-top: 10px;">
+                </div>
+                <div class="div5_2_2">Sạc dự phòng Energizer 20000mAh - UE20043</div>
+                <div class="div5_2_3">
+                    <span class="textdiv5_1">790,000 <u>đ</u></span>
+                    <span class="textdiv5_2">900,000 <u>đ</u></span>
+                </div>
+            </div>
+            <div class="div5_2">
+                <div class="div5_2_1">
+                    <img src="Img/PhuKien/pin3.png" style="margin-top: 10px;">
+                </div>
+                <div class="div5_2_2">Sạc Energizer 20.000Mah Siêu Người sắt - UE20028PQ</div>
+                <div class="div5_2_3">
+                    <span class="textdiv5_1">740,000 <u>đ</u></span>
+                    <span class="textdiv5_2">990,000 <u>đ</u></span>
+                </div>
+            </div>
+            <div class="div5_2">
+                <div class="div5_2_1">
+                    <img src="Img/PhuKien/pin4.png" style="margin-top: 10px;">
+                </div>
+                <div class="div5_2_2">Sạc dự phòng Pisen PowerBox C10000 - Chính hãng</div>
+                <div class="div5_2_3">
+                    <span class="textdiv5_1">370,000<u>đ</u></span>
+                    <span class="textdiv5_2">500,000<u>đ</u></span>
+                </div>
+            </div>
+            <div class="div5_1">
+                <img src="Img/back.png" alt="">
+            </div>
+        </div>
+        <div id="div7" class="test">LOA</div>
+        <div id="div5">
+            <div class="div5_1">
+                <img src="Img/left.png" alt="">
+            </div>
+            <div class="div5_2">
+                <div class="div5_2_1">
+                    <img src="Img/PhuKien/loa1.png" style="margin-top: 10px;">
+                </div>
+                <div class="div5_2_2">Sony SRS-XB33 - Chính hãng</div>
+                <div class="div5_2_3">
+                    <span class="textdiv5_1">3,280,000 <u>đ</u></span>
+                    <span class="textdiv5_2">3,590,000 <u>đ</u></span>
+                </div>
+            </div>
+            <div class="div5_2">
+                <div class="div5_2_1">
+                    <img src="Img/PhuKien/loa2.png" style="margin-top: 10px;">
+                </div>
+                <div class="div5_2_2">Loa Bluetooth LG Xboom Go PL5 - chính hãng</div>
+                <div class="div5_2_3">
+                    <span class="textdiv5_1">1,390,000 <u>đ</u></span>
+                    <span class="textdiv5_2">2,900,000 <u>đ</u></span>
+                </div>
+            </div>
+            <div class="div5_2">
+                <div class="div5_2_1">
+                    <img src="Img/PhuKien/loa3.png" style="margin-top: 10px;">
+                </div>
+                <div class="div5_2_2">Loa Bluetooth LG XBoom PL7 - chính hãng</div>
+                <div class="div5_2_3">
+                    <span class="textdiv5_1">1,740,000 <u>đ</u></span>
+                    <span class="textdiv5_2">3,990,000 <u>đ</u></span>
+                </div>
+            </div>
+            <div class="div5_2">
+                <div class="div5_2_1">
+                    <img src="Img/PhuKien/loa4.png" style="margin-top: 10px;">
+                </div>
+                <div class="div5_2_2">Loa JBL PartyBox On-The-Go - Chính hãng</div>
+                <div class="div5_2_3">
+                    <span class="textdiv5_1">7,370,000<u>đ</u></span>
+                    <span class="textdiv5_2">8,500,000<u>đ</u></span>
+                </div>
+            </div>
+            <div class="div5_1">
+                <img src="Img/back.png" alt="">
+            </div>
+        </div>
+        <div id="div7" class="test">CỦ SẠC - DÂY CÁP</div>
+        <div id="div5">
+            <div class="div5_1">
+                <img src="Img/left.png" alt="">
+            </div>
+            <div class="div5_2">
+                <div class="div5_2_1">
+                    <img src="Img/PhuKien/sac1.png" style="margin-top: 10px;">
+                </div>
+                <div class="div5_2_2">Sạc nhanh Anker 1 cổng - PowerPort III Nano - 20w A2633</div>
+                <div class="div5_2_3">
+                    <span class="textdiv5_1">380,000 <u>đ</u></span>
+                    <span class="textdiv5_2">590,000 <u>đ</u></span>
+                </div>
+            </div>
+            <div class="div5_2">
+                <div class="div5_2_1">
+                    <img src="Img/PhuKien/sac2.png" style="margin-top: 10px;">
+                </div>
+                <div class="div5_2_2">Cáp Innostyle Jazzy Usb-A To Usb-C 1.2M Hỗ Trợ Sạc Nhanh 15W</div>
+                <div class="div5_2_3">
+                    <span class="textdiv5_1">130,000 <u>đ</u></span>
+                    <span class="textdiv5_2">290,000 <u>đ</u></span>
+                </div>
+            </div>
+            <div class="div5_2">
+                <div class="div5_2_1">
+                    <img src="Img/PhuKien/sac3.png" style="margin-top: 10px;">
+                </div>
+                <div class="div5_2_2">Cổng chuyển HyperDrive 4K HDMI 3-in-1 USB-C Hub HD259A</div>
+                <div class="div5_2_3">
+                    <span class="textdiv5_1">740,000 <u>đ</u></span>
+                    <span class="textdiv5_2">990,000 <u>đ</u></span>
+                </div>
+            </div>
+            <div class="div5_2">
+                <div class="div5_2_1">
+                    <img src="Img/PhuKien/sac4.png" style="margin-top: 10px;">
+                </div>
+                <div class="div5_2_2">Cổng chuyển HYPERDRIVE HDMI/VGA 4K 2 IN 1 HD-C2HV</div>
+                <div class="div5_2_3">
+                    <span class="textdiv5_1">730,000<u>đ</u></span>
+                    <span class="textdiv5_2">950,000<u>đ</u></span>
+                </div>
+            </div>
+            <div class="div5_1">
+                <img src="Img/back.png" alt="">
+            </div>
+        </div>
+        <div id="div7" class="test">CAMERA AN NINH</div>
+        <div id="div5">
+            <div class="div5_1">
+                <img src="Img/left.png" alt="">
+            </div>
+            <div class="div5_2">
+                <div class="div5_2_1">
+                    <img src="Img/PhuKien/cam1.png" style="margin-top: 10px;">
+                </div>
+                <div class="div5_2_2">Xiaomi Mi Home Security 1080P - Chính hãng</div>
+                <div class="div5_2_3">
+                    <span class="textdiv5_1">880,000 <u>đ</u></span>
+                    <span class="textdiv5_2">990,000 <u>đ</u></span>
+                </div>
+            </div>
+            <div class="div5_2">
+                <div class="div5_2_1">
+                    <img src="Img/PhuKien/cam2.png" style="margin-top: 10px;">
+                </div>
+                <div class="div5_2_2">Camera Wifi Hilook IPC-P220-D/W (2.0MP) - Chính Hãng FPT</div>
+                <div class="div5_2_3">
+                    <span class="textdiv5_1">530,000 <u>đ</u></span>
+                    <span class="textdiv5_2">690,000 <u>đ</u></span>
+                </div>
+            </div>
+            <div class="div5_2">
+                <div class="div5_2_1">
+                    <img src="Img/PhuKien/cam3.png" style="margin-top: 10px;">
+                </div>
+                <div class="div5_2_2">Camera IMOU IP Ranger Pro - Chính hãng</div>
+                <div class="div5_2_3">
+                    <span class="textdiv5_1">940,000 <u>đ</u></span>
+                    <span class="textdiv5_2">1,190,000 <u>đ</u></span>
+                </div>
+            </div>
+            <div class="div5_2">
+                <div class="div5_2_1">
+                    <img src="Img/PhuKien/cam4.png" style="margin-top: 10px;">
+                </div>
+                <div class="div5_2_2">Camera IMOU IP LOOC - Chính hãng</div>
+                <div class="div5_2_3">
+                    <span class="textdiv5_1">730,000<u>đ</u></span>
+                    <span class="textdiv5_2">950,000<u>đ</u></span>
+                </div>
+            </div>
+            <div class="div5_1">
+                <img src="Img/back.png" alt="">
+            </div>
+        </div>
+        <div id="div7" class="test">BỘ PHÁT WIFI</div>
+        <div id="div5">
+            <div class="div5_1">
+                <img src="Img/left.png" alt="">
+            </div>
+            <div class="div5_2">
+                <div class="div5_2_1">
+                    <img src="Img/PhuKien/wifi1.png" style="margin-top: 10px;">
+                </div>
+                <div class="div5_2_2">Bộ phát Wifi di động 4G LTE TotoLink MF180 v2.0 - Chính Hãng</div>
+                <div class="div5_2_3">
+                    <span class="textdiv5_1">1,080,000 <u>đ</u></span>
+                    <span class="textdiv5_2">1,290,000 <u>đ</u></span>
+                </div>
+            </div>
+            <div class="div5_2">
+                <div class="div5_2_1">
+                    <img src="Img/PhuKien/wifi2.png" style="margin-top: 10px;">
+                </div>
+                <div class="div5_2_2">Bộ Phát Wifi TP Link M7200 - Chính hãng</div>
+                <div class="div5_2_3">
+                    <span class="textdiv5_1">930,000 <u>đ</u></span>
+                    <span class="textdiv5_2">990,000 <u>đ</u></span>
+                </div>
+            </div>
+            <div class="div5_2">
+                <div class="div5_2_1">
+                    <img src="Img/PhuKien/wifi3.png" style="margin-top: 10px;">
+                </div>
+                <div class="div5_2_2">Bộ phát Wifi di động 4G LTE Huawei 3S - Chính Hãng</div>
+                <div class="div5_2_3">
+                    <span class="textdiv5_1">940,000 <u>đ</u></span>
+                    <span class="textdiv5_2">1,190,000 <u>đ</u></span>
+                </div>
+            </div>
+            <div class="div5_2">
+                <div class="div5_2_1">
+                    <img src="Img/PhuKien/wifi4.png" style="margin-top: 10px;">
+                </div>
+                <div class="div5_2_2">Bộ Phát Wifi TP Link M7350 - Chính hãng</div>
+                <div class="div5_2_3">
+                    <span class="textdiv5_1">1,330,000<u>đ</u></span>
+                    <span class="textdiv5_2">1,950,000<u>đ</u></span>
+                </div>
+            </div>
+            <div class="div5_1">
+                <img src="Img/back.png" alt="">
+            </div>
+        </div>
+        <div id="div7" class="test">BAO DA - ỐP LƯNG</div>
+        <div id="div5">
+            <div class="div5_1">
+                <img src="Img/left.png" alt="">
+            </div>
+            <div class="div5_2">
+                <div class="div5_2_1">
+                    <img src="Img/PhuKien/op1.png" style="margin-top: 10px;">
+                </div>
+                <div class="div5_2_2">Ốp iPhone 11 UAG Monarch - Chính hãng</div>
+                <div class="div5_2_3">
+                    <span class="textdiv5_1">680,000 <u>đ</u></span>
+                    <span class="textdiv5_2">990,000 <u>đ</u></span>
+                </div>
+            </div>
+            <div class="div5_2">
+                <div class="div5_2_1">
+                    <img src="Img/PhuKien/op2.png" style="margin-top: 10px;">
+                </div>
+                <div class="div5_2_2">Ốp lưng UAG Pyo Ice Samsung Galaxy Note 20 | Note 20 Ultra</div>
+                <div class="div5_2_3">
+                    <span class="textdiv5_1">430,000 <u>đ</u></span>
+                    <span class="textdiv5_2">590,000 <u>đ</u></span>
+                </div>
+            </div>
+            <div class="div5_2">
+                <div class="div5_2_1">
+                    <img src="Img/PhuKien/op3.png" style="margin-top: 10px;">
+                </div>
+                <div class="div5_2_2">Ốp lưngUAG Plasma Samsung Galaxy Note 20 | Note 20 Ultra</div>
+                <div class="div5_2_3">
+                    <span class="textdiv5_1">540,000 <u>đ</u></span>
+                    <span class="textdiv5_2">790,000 <u>đ</u></span>
+                </div>
+            </div>
+            <div class="div5_2">
+                <div class="div5_2_1">
+                    <img src="Img/PhuKien/op4.png" style="margin-top: 10px;">
+                </div>
+                <div class="div5_2_2">Ốp UAG Monarch Samsung Galaxy Note 20 | Note 20 Ultra</div>
+                <div class="div5_2_3">
+                    <span class="textdiv5_1">730,000<u>đ</u></span>
+                    <span class="textdiv5_2">950,000<u>đ</u></span>
+                </div>
+            </div>
+            <div class="div5_1">
+                <img src="Img/back.png" alt="">
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <div id="div18">
+        <div class="div18_1">
+            <span class="text18_1">Sản phẩm</span>
+            <span class="text18_2">CHÍNH HÃNG</span>
+        </div>
+        <div class="div18_2">
+            <img src="Img/tuatua.png" alt="" class="tua">
+        </div>
+        <div class="div18_1">
+            <span class="text18_1">Miễn phí vận chuyển</span>
+            <span class="text18_2">TOÀN QUỐC</span>
+        </div>
+        <div class="div18_2">
+            <img src="Img/tuatua.png" alt="" class="tua">
+        </div>
+        <div class="div18_1">
+            <span class="text18_1">Uy tín,chất lượng</span>
+            <span class="text18_2">100%</span>
+        </div>
+        <div class="div18_2">
+            <img src="Img/tuatua.png" alt="" class="tua">
+        </div>
+        <div class="div18_1">
+            <span class="text18_1">Thủ tục đổi trả</span>
+            <span class="text18_2">DỂ DÀNG</span>
+        </div>
+        <div class="div18_2">
+            <img src="Img/tuatua.png" alt="" class="tua">
+        </div>
+        <div class="div18_1">
+            <span class="text18_1">Hotline hỗ trợ</span>
+            <span class="text18_2">1900.0007</span>
+        </div>
+    </div>
+    <div id="div19">
+        <div class="div19_">
+            <img src="Img/QuangCao/quangcao4.png" style="width:595px;height: 120px;border-radius: 15px;">
+        </div>
+        <div class="div19_">
+            <img src="Img/QuangCao/quangcao2.png" style="width:595px;height: 120px;border-radius: 15px;">
+        </div>
+    </div>
+    <div id="banDo"> <img src="Img/bando.png" alt=""></div>
+    <div id="div21">
+        <div id="div21_1"><img src="Img/end/endblack.png" style="border-radius: 20px;"></div>
+    </div>
+    <div id="div22">
+        <div class="div22_1">
+            <div class="div22_1_">
+                <a href="#" class="endlink_">
+                    <pre class="textdiv22_1_1">Thông tin công ty</pre>
+                </a>
+                <a href="#" class="endlink">
+                    <pre class="textdiv22_1_2">Giới thiệu công ty</pre>
+                </a>
+                <a href="#" class="endlink">
+                    <pre class="textdiv22_1_2">Quy chế sàn TMĐT</pre>
+                </a>
+                <a href="#" class="endlink">
+                    <pre class="textdiv22_1_2">Hệ thống cửa hàng</pre>
+                </a>
+                <a href="#" class="endlink">
+                    <pre class="textdiv22_1_2">Mua hàng doanh nghiệp</pre>
+                </a>
+                <a href="#" class="endlink">
+                    <pre class="textdiv22_1_2">Tuyển dụng</pre>
+                </a>
+                <a href="#" class="endlink">
+                    <pre class="textdiv22_1_2">Liên hệ</pre>
+                </a>
+            </div>
+            <div class="div22_1_">
+                <a href="#" class="endlink_">
+                    <pre class="textdiv22_1_1">Doanh mục hàng đầu</pre>
+                </a>
+                <a href="#" class="endlink">
+                    <pre class="textdiv22_1_2">IPhone</pre>
+                </a>
+                <a href="#" class="endlink">
+                    <pre class="textdiv22_1_2">Oppo</pre>
+                </a>
+                <a href="#" class="endlink">
+                    <pre class="textdiv22_1_2">Redmi</pre>
+                </a>
+                <a href="#" class="endlink">
+                    <pre class="textdiv22_1_2">Samsung</pre>
+                </a>
+                <a href="#" class="endlink">
+                    <pre class="textdiv22_1_2">BPhone</pre>
+                </a>
+            </div>
+            <div class="div22_1_">
+                <a href="#" class="endlink_">
+                    <pre class="textdiv22_1_1">Chính sách</pre>
+                </a>
+                <a href="#" class="endlink">
+                    <pre class="textdiv22_1_2">Trả góp</pre>
+                </a>
+                <a href="#" class="endlink">
+                    <pre class="textdiv22_1_2">Ưu đãi đối tác</pre>
+                </a>
+                <a href="#" class="endlink">
+                    <pre class="textdiv22_1_2">Điều kiện giao dịch</pre>
+                </a>
+                <a href="#" class="endlink">
+                    <pre class="textdiv22_1_2">Bảo vệ TT người dùng</pre>
+                </a>
+                <a href="#" class="endlink">
+                    <pre class="textdiv22_1_2">Bảo mật giao dịch</pre>
+                </a>
+                <a href="#" class="endlink">
+                    <pre class="textdiv22_1_2">Chính sách bảo hành</pre>
+                </a>
+                <a href="#" class="endlink">
+                    <pre class="textdiv22_1_2">Chính sách thanh toán</pre>
+                </a>
+            </div>
+            <div class="div22_1_">
+                <a href="#" class="endlink_">
+                    <pre class="textdiv22_1_1">Hổ trọ khách hàng</pre>
+                </a>
+                <a href="#" class="endlink">
+                    <pre class="textdiv22_1_2">Hướng dẫn mua hàng</pre>
+                </a>
+                <a href="#" class="endlink">
+                    <pre class="textdiv22_1_2">Hóa đơn điện tử</pre>
+                </a>
+                <a href="#" class="endlink">
+                    <pre class="textdiv22_1_2">Câu hỏi thường gặp</pre>
+                </a>
+                <a href="#" class="endlink">
+                    <pre class="textdiv22_1_2">Vận chuyển & giao nhận</pre>
+                </a>
+                <a href="#" class="endlink">
+                    <pre class="textdiv22_1_2">Phương thức thanh toán</pre>
+                </a>
+                <a href="#" class="endlink">
+                    <pre class="textdiv22_1_2">Tra cứu đơn hàng</pre>
+                </a>
+                <a href="#" class="endlink">
+                    <pre class="textdiv22_1_2">Dịch vụ lắp đặt</pre>
+                </a>
+            </div>
+            <div class="div22_1_">
+                <a href="#" class="endlink_">
+                    <pre class="textdiv22_1_1">Thông tin khác</pre>
+                </a>
+                <a href="#" class="endlink">
+                    <pre class="textdiv22_1_2" style="color: red;font-style:oblique;">7-Phone@vku.udn.vn</pre>
+                </a>
+                <a href="#" class="endlink">
+                    <pre class="textdiv22_1_2">Mua hàng-Góp ý-Bảo hành</pre>
+                </a>
+                <a href="#" class="endlink">
+                    <pre class="textdiv22_1_2">Gọi: 1900.0007 miễn phí</pre>
+                </a>
+                <a href="#" class="endlink">
+                    <pre class="textdiv22_1_2">Sơ đồ trang web</pre>
+                </a>
+                <a href="#" class="endlink">
+                    <pre class="textdiv22_1_2" style="color: red;">Cảnh báo giả mạo</pre>
+                </a>
+                <a href="#" class="endlink">
+                    <pre class="textdiv22_1_2">Tiếp nhận,phản ánh</pre>
+                </a>
+            </div>
+        </div>
+        <div class="div22_2">
+            <img src="Img/end/end2.png" style="width:1200px;height:99px;margin-top:1px">
+        </div>
+        <div class="div22_3">
+            <pre>Copyright © 1999 - 2021 Công ty Cổ phần Thương mại 7-Phone.
+    Giấy chứng nhận đăng ký kinh doanh số 15052021IT7, cấp ngày 15/05/2021 bởi Sở Kế hoạch và Đầu tư TP. Đà Nẵng.
+    Địa chỉ đăng ký trụ sở chính: Đại học CNTT & TT Việt Hàn - 470 Trần Đại Nghĩa , phường Hòa Quý, quận Ngũ Hành Sơn, Đà Nẵng</pre>
+        </div>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,132 @@
+#divSuaChua{
+    display: none;
+    float: left;
+    margin-top: 40px;
+    margin-left: 140px;
+    width: 1200px;
+    height: 4200px;
+    border-radius: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#divSuaChua1{
+    float: left;
+    width: 1200px;
+    height: 40px;
+}
+#divSuaChua1_1{
+    float: left;
+    width: 298px;
+    height: 20px;
+    border-bottom: 2px solid lightgrey;
+}
+#divSuaChua1_2{
+    float: left;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 24px;
+    width: 600px;
+    height: 35px;
+    border: 2px solid lightgrey;
+}
+#divSuaChua2{
+    line-height: 30px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: left;
+    font-size: 18px;
+    float: left;
+    width: 1200px;
+    height: 1300px;  
+}
+.divSuaChua3{
+    margin-top: 30px;
+    text-align: left;
+    font-size: 18px;
+    float: left;
+    width: 1200px;
+    height: 1200px;  
+}
+.divSuaChua3_1{
+    text-align: left;
+    margin-bottom: 30px;
+    font-size: 18px;
+    float: left;
+    margin-right: 55px;
+    width: 570px;
+    height: 570px;  
+}
+.divSuaChua3_2{
+    text-align: left;
+    font-size: 18px;
+    float: left;
+    margin-bottom: 30px;
+    width: 570px;
+    height: 570px;  
+}
+.divSuaChua3_{
+    text-align: left;
+    font-size: 18px;
+    float: left;
+    width: 570px;
+    height: 40px;  
+    border-left: 1.5px lightblue solid;
+    border-right: 1.5px lightblue solid;
+    border-bottom: 1.5px lightblue solid;
+    
+}
+.divscSuaGi{
+    padding-top: 8px;
+    padding-left: 10px;
+    text-align: left;
+    font-size: 18px;
+    float: left;
+    width: 400px;
+    height: 32px;  
+    border-right: 1.5px lightblue solid;
+}
+#SuaGitop{
+    font-size: 20px;
+    text-align: center;
+}
+#Tientop{
+    font-size: 20px;
+    text-align: center;
+}
+.divscTien{
+    padding-top: 8px;
+    text-align: center;
+    font-size: 18px;
+    float: left;
+    width: 155px; 
+}
+#divSuaChua3_top{
+    text-align: center;
+    background-color: lightblue;
+}
+#divSuaChua4{
+    margin-top: 40px;
+    text-align: left;
+    font-size: 18px;
+    float: left;
+    width: 1200px;
+    height: 400px;  
+}
+#divSuaChua4 img{
+    width: 1200px;
+    height: 400px;  
+    border-radius: 20px;
+}
+
+.textsc1{
+    font-size: 28px;
+}
+.textdiachi{
+    font-weight: 600;
+}
+.textmau{
+    color:  orange;
+}
+.textmau:hover{
+    color: blue;
+}
+

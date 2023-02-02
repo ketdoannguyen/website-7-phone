@@ -1,0 +1,74 @@
+.textdiv5_1{
+    font-family: 'Verdana';
+    font-size: 21px;
+    font-weight: 900;
+    color: crimson;
+}
+.textdiv5_2{
+    font-size: 16px;
+    font-weight: 200;
+    color: black;
+    text-decoration: line-through;
+}
+.textdiv8_1{
+    font-family: 'Verdana';
+    font-size: 17px;
+    font-weight: 900;
+    color: crimson;
+}
+.textdiv8_2{
+    font-size: 14px;
+    font-weight: 200;
+    color: black;
+    text-decoration: line-through;
+}
+.textdivdt_1{
+    font-size: 18px;
+    font-weight: 600;
+    display: block;
+    font-size: 17px;
+    font-weight: 900;
+    color: black;
+}
+.textdivdt_2{
+    line-height: 40px;
+    font-family: 'Verdana';
+    font-size: 17px;
+    font-weight: 900;
+    color: crimson;
+}
+.textdivdt_3{
+    font-size: 14px;
+    font-weight: 200;
+    color: black;
+    text-decoration: line-through;
+}
+.textdiv1{
+    clear: both;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    color: black;
+}
+.textdiv1:hover{
+    color: red;
+}
+.text18_1{
+    font-weight: lighter;
+    font-size: 20px;
+    display: block;
+}
+.text18_2{
+    font-weight: lighter;
+    font-size: 22px;
+    font-weight: bolder;
+}
+.textdiv22_1_1{
+    font-weight: bold;
+    font-size: 22px;
+    display: block;
+}
+.textdiv22_1_2{
+    font-weight: 100;
+    font-size: 18px;
+    display: block;
+}
